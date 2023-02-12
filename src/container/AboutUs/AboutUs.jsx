@@ -18,7 +18,10 @@ const AboutUs = () => (
           1984. Decades later, there are multiple thriving abalone farms in
           Hermanus. We are very fortunate to be able to work with
           <a className="app__aboutus-link">
-            <a href="http://www.hik.co.za/"> HIK Abalone Farm, </a>
+            <a href="http://www.hik.co.za/" target="_blank">
+              {" "}
+              HIK Abalone Farm,{" "}
+            </a>
           </a>
           which provides us with our live produce twice a week. We proudly bring
           you this delicacy, part of Hermanus’s seafood culture, sustainably to
