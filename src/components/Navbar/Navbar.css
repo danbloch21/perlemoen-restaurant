@@ -108,7 +108,31 @@ border-bottom: 1px solid var(--color-golden);
     color: var(--color-white);
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 2000px) {
+    .app__navbar-logo img {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 3.75rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .app__navbar-logo img {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .app__navbar {
+        padding: 1.5rem;
+    }
+
     .app__navbar-links {
         display: none;
     }
@@ -116,11 +140,26 @@ border-bottom: 1px solid var(--color-golden);
     .app__navbar-smallscreen {
         display: flex;
     }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+
+    .app__navbar-logo img {
+        width: 170px;
+    }
 }
 
-@media screen and (max-width: 650px) {
+
+
+@media screen and (max-width: 550px) {
     .app__navbar {
-        padding: 1rem;
+        padding: 1.75rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
     }
 
     .app__navbar-login {
@@ -128,6 +167,71 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 110px;
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .app__navbar {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 170px;
+    }
+
+    .app__navbar-smallscreen_overlay .overlay__close {
+        top: 50px;
+        right: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__navbar {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__navbar {
+        padding: 0.7rem;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 250px;
+    }
+
+    .app__navbar-smallscreen_overlay {
+      
     }
 }
