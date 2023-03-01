@@ -14,13 +14,13 @@ const AboutUs = () => (
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
           The building where you are dining today was the first abalone hatchery
-          where Dr Pierre Hugo experimented with cultivating the shellfish in
-          1984. Decades later, there are multiple thriving abalone farms in
-          Hermanus. We are very fortunate to be able to work with
+          where local vet Dr Pierre Hugo experimented with cultivating the
+          shellfish in 1984. Decades later, there are multiple thriving abalone
+          farms in Hermanus. We are very fortunate to be able to work with our
+          supplier and partner,
           <a className="app__aboutus-link">
             <a href="http://www.hik.co.za/" target="_blank">
-              {" "}
-              HIK Abalone Farm,{" "}
+              {""} HIK Abalone Farm, {""}
             </a>
           </a>
           which provides us with our live produce twice a week. We proudly bring

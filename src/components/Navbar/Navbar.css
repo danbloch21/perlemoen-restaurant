@@ -67,8 +67,10 @@ border-bottom: 1px solid var(--color-golden);
     display: none;
 }
 
+
 .app__navbar-smallscreen_overlay {
     position: fixed;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -130,7 +132,7 @@ border-bottom: 1px solid var(--color-golden);
 
 @media screen and (max-width: 1030px) {
     .app__navbar {
-        padding: 1.5rem;
+        padding: 1.5rem 2rem 1rem 2rem;
     }
 
     .app__navbar-links {
@@ -139,6 +141,11 @@ border-bottom: 1px solid var(--color-golden);
 
     .app__navbar-smallscreen {
         display: flex;
+    }
+
+    .app__navbar-smallscreen_overlay .overlay__close {
+        top: 55px;
+        right: 130px;
     }
 
     h1 {
@@ -152,52 +159,69 @@ border-bottom: 1px solid var(--color-golden);
 }
 
 
+@media screen and (max-width: 1030px) {
+    .app__navbar {
+        padding: 1rem 4.5rem 1rem 5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .app__navbar-logo img {
+        width: 260px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .app__navbar {
+        padding: 1rem 4rem 1rem 3rem;
+    }
+
+    .app__navbar-logo img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__navbar {
+        padding: 1rem 3rem 1rem 3rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+    .app__navbar {
+        padding: 1rem 5rem 1rem 3rem;
+    }
+
+    .app__navbar-logo img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .app__navbar {
+        padding: 1rem 4rem 1rem 3rem;
+    }
+
+    .app__navbar-logo img {
+        width: 250px;
+    }
+}
 
 @media screen and (max-width: 550px) {
     .app__navbar {
-        padding: 1.75rem;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    .app__navbar-login {
-        display: none;
-    }
-
-    .app__navbar-logo img {
-        width: 150px;
-    }
-}
-
-
-@media screen and (max-width: 420px) {
-    .app__navbar {
-        padding: 1rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    .app__navbar-login {
-        display: none;
-    }
-
-    .app__navbar-logo img {
-        width: 170px;
-    }
-
-    .app__navbar-smallscreen_overlay .overlay__close {
-        top: 50px;
-        right: 70px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .app__navbar {
-        padding: 1rem;
+        padding: 1rem 2.5rem 1rem 2rem;
     }
 
     h1 {
@@ -209,18 +233,78 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 160px;
+        width: 150px;
+    }
+
+    .app__navbar-smallscreen_links li {
+        text-align: center;
+        padding-right: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .app__navbar {
+        padding: 1rem 3rem 1rem 2.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 155px;
+    }
+
+    .app__navbar-smallscreen_links li {
+        text-align: center;
+        padding-right: 2.4rem;
+    }
+
+    .app__navbar-smallscreen_overlay .overlay__close {
+        top: 50px;
+        right: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__navbar {
+        padding: 1rem 3rem 1rem 2rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .app__navbar-login {
+        display: none;
+    }
+
+    .app__navbar-logo img {
+        width: 140px;
+    }
+    .app__navbar-smallscreen_overlay {
+        height: 110vh;
+      }
+
+      .app__navbar-smallscreen_links li {
+        text-align: center;
+        padding-right: 2.4rem;
     }
 }
 
 @media screen and (max-width: 300px) {
     .app__navbar {
-        padding: 0.7rem;
+        padding: 1rem;
         flex-direction: column;
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .app__navbar-login {
@@ -232,6 +316,11 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-smallscreen_overlay {
-      
+      height: 130vh;
+    }
+
+    .app__navbar-smallscreen_links li {
+        text-align: center;
+        padding-right: 0.1rem;
     }
 }
