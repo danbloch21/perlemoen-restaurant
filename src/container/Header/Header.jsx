@@ -11,7 +11,7 @@ const Header = () => (
       <h1 className="app__header-h1">Taste The Ocean</h1>
       <p className="app__p-opensans">
         Take a stroll down to Hermanus's Old Harbour, a place steeped in
-        history, and drink in the famous "champagne air" while savouring the
+        history, and drink in the famous “champagne air” while savouring the
         spectacular views of Walker Bay. There is no better spot to sample our
         local delicacy perlemoen, paired with one of our renowned wines from the
         Hemel En Aarde Valley as you experience the sights, sounds and scent of
