@@ -18,29 +18,94 @@ const champagnes = [
 
 const cocktails = [
   {
-    title: "Aperol Sprtiz",
-    price: "$20",
-    tags: "Aperol | Villa Marchesi prosecco | soda | 30 ml",
+    title: "Mimosa",
+    price: "R70",
+    tags: "Brut MCC | Orange juice",
   },
   {
-    title: "Dark 'N' Stormy",
-    price: "$16",
-    tags: "Dark rum | Ginger beer | Slice of lime",
+    title: "Italian Job",
+    price: "R89",
+    tags: "Prosecco | Limoncello | Basil | Lime",
   },
   {
-    title: "Daiquiri",
-    price: "$10",
-    tags: "Rum | Citrus juice | Sugar",
+    title: "Cosmopolitan",
+    price: "R70",
+    tags: "Vodka | Triple Sec | Lime | Cranberry juice",
   },
   {
-    title: "Old Fashioned",
-    price: "$31",
-    tags: "Bourbon | Brown sugar | Angostura Bitters",
+    title: "Mojito",
+    price: "R80",
+    tags: "Bacardi | Lime | Fresh mint",
+  },
+  {
+    title: "Tequila Sunrise",
+    price: "R87",
+    tags: "Tequila | Orange juice | Grenadine",
+  },
+  {
+    title: "Aperol Spritz",
+    price: "R79",
+    tags: "Prosecco | Aperol | Soda | Orange garnish",
   },
   {
     title: "Negroni",
-    price: "$26",
-    tags: "Gin | Sweet Vermouth | Campari | Orange garnish",
+    price: "R75",
+    tags: "Gin | Vermouth | Campari",
+  },
+  {
+    title: "Pink Gin Cocktail",
+    price: "R85",
+    tags: "Fiddler's gin | Pink tonic | Fresh berries",
+  },
+  {
+    title: "Lady Hoy Gin Cocktail",
+    price: "R85",
+    tags: "Tanqueray gin | Mint | Lime | Cucumber | Indian tonic",
+  },
+  {
+    title: "Bloody Mary",
+    price: "R85",
+  },
+];
+
+const beers = [
+  {
+    title: "Old Harbour Beer",
+    price: "R50",
+  },
+  {
+    title: "Carling Black Label",
+    price: "R30",
+  },
+  {
+    title: "Castle Light",
+    price: "R30",
+  },
+  {
+    title: "Folk & Goode IPA",
+    price: "R50",
+  },
+  {
+    title: "Savannah Dry",
+    price: "R35",
+  },
+  {
+    title: "Hunter’s Dry",
+    price: "R35",
+  },
+  {
+    title: "Brutal Fruit",
+    price: "R35",
+  },
+  {
+    title: "Heineken 0.0",
+    price: "R35",
+    tags: "Non-alcoholic",
+  },
+  {
+    title: "Savannah Lemon",
+    price: "R35",
+    tags: "Non-alcoholic",
   },
 ];
 
@@ -67,4 +132,4 @@ const awards = [
   },
 ];
 
-export default { champagnes, cocktails, awards };
+export default { champagnes, cocktails, beers, awards };
