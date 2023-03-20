@@ -8,7 +8,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar" style={{letterSpacing: "0.4em"}}>
       <h1>PERLEMOEN RESTAURANT</h1>
       <div className="app__navbar-logo">
         <img src={images.Shells233pc} alt="app logo" />
@@ -46,7 +46,7 @@ const Navbar = () => {
           onClick={() => setToggleMenu(true)}
         />
 
-        {toggleMenu && (
+        {toggleMenu ? (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu
               fontSize={27}
@@ -72,10 +72,12 @@ const Navbar = () => {
               <li className="p__opensans">
                 <a href="#login/register">LOG IN/REGISTER</a>
               </li>
-              <li className="p__opensans"><a href="#book a table">BOOK A TABLE</a></li>
+              <li className="p__opensans">
+                <a href="#book a table">BOOK A TABLE</a>
+              </li>
             </ul>
           </div>
-        )}
+        ) : null}
       </div>
     </nav>
   );

@@ -109,6 +109,460 @@ const beers = [
   },
 ];
 
+const whites = [
+  {
+    /* Sauvignon Blancs */
+  },
+  {
+    title: "Ataraxia",
+    price: "R230",
+    tags: "Glass | R60",
+  },
+  {
+    title: "Southern Right",
+    price: "R260",
+  },
+  {
+    title: "Benguela Cove Lighthouse",
+    price: "R180",
+  },
+  {
+    title: "Benguela Cove Estate Sauvignon",
+    price: "R275",
+  },
+  {
+    /* Chenin Blancs */
+  },
+  {
+    title: "Gabriëlskloof",
+    price: "R220",
+    tags: "Glass | R60",
+  },
+  {
+    title: "Creation Cool Climate",
+    price: "R300",
+  },
+  {
+    /* Viognier */
+  },
+  {
+    title: "Creation",
+    price: "R245",
+  },
+  {
+    /* Chardonnays */
+  },
+  {
+    title: "Bouchard Finlayson Sans Barrique",
+    price: "R295",
+  },
+  {
+    title: "Bouchard Finlayson Kaaimansgat",
+    price: "R360",
+  },
+  {
+    title: "La Vierge Redemption",
+    price: "R200",
+  },
+  {
+    title: "Hamilton Russell Estate",
+    price: "R895",
+  },
+  {
+    /* Blends */
+  },
+  {
+    title: "Bouchard Finlayson Blanc De Mer",
+    price: "R175",
+  },
+  {
+    title: "Whale Haven Abalone",
+    price: "R165",
+    tags: "Glass | R50",
+  },
+  {
+    title: "Ashbourne Sandstone",
+    price: "R470",
+  },
+];
+
+const roses = [
+  {
+    title: "Gabriëlskloof Rosebud",
+    price: "R185",
+    tags: "Glass | R55",
+  },
+  {
+    title: "Creation Rosé",
+    price: "R185",
+  },
+];
+
+const reds = [
+  {
+    /* Pinot Noir */
+  },
+  {
+    title: "Ataraxia",
+    price: "R535",
+  },
+  {
+    title: "Bouchard Finlayson Galpin Peak",
+    price: "R665",
+  },
+  {
+    /* Shiraz */
+  },
+  {
+    title: "Creation Reserve Syrah",
+    price: "R580",
+  },
+  {
+    title: "Gabriëlskloof Syrah",
+    price: "R296",
+  },
+  {
+    /* Pinotage */
+  },
+  {
+    title: "Whalehaven",
+    price: "R325",
+  },
+  {
+    title: "Southern Right",
+    price: "R575",
+  },
+  {
+    /* Blends */
+  },
+  {
+    title: "La Vierge Nymphomane",
+    price: "R290",
+  },
+  {
+    title: "Whalhaven Abalone",
+    price: "R165",
+    tags: "Glass | R50",
+  },
+  {
+    /* Dessert Wine */
+  },
+  {
+    title: "Creation Fine Cape Vintage Port",
+    tags: "Glass | R50",
+  },
+];
+
+const spirits = [
+  {
+    /* Spirits/liqueurs */
+  },
+  {
+    title: "Absolut Vodka",
+    price: "R25",
+  },
+  {
+    title: "Smirnoff",
+    price: "R20",
+  },
+  {
+    title: "Bacardi Rum",
+    price: "R20",
+  },
+  {
+    title: "Tanqueray Gin",
+    price: "R25",
+  },
+  {
+    title: "Fiddler's Gin",
+    price: "R28",
+  },
+  {
+    title: "Gordon's Gin",
+    price: "R20",
+  },
+  {
+    title: "Bells Scotch Whiskey",
+    price: "R20",
+  },
+  {
+    title: "Jameson Irish Whiskey",
+    price: "R35",
+  },
+  {
+    title: "Glenlivet 12-year-old single malt whiskeys",
+    price: "R50",
+  },
+  {
+    title: "Olofberg Brandy",
+    price: "R20",
+  },
+  {
+    title: "Grappa",
+    price: "R40",
+  },
+  {
+    title: "Jägermeister",
+    price: "R30",
+  },
+];
+
+const softs = [
+  {
+    title: "Coke, Coke Zero, Fanta, Cream Soda",
+    price: "R25",
+  },
+  {
+    title: "Appletiser, Red Grapetiser",
+    price: "R30",
+  },
+  {
+    title: "Soda, Lemonade, Dry Lemon",
+    price: "R22",
+  },
+  {
+    title: "Campari",
+    price: "R32",
+  },
+  {
+    title: "El Jimador Gold Tequila",
+    price: "R32",
+  },
+  {
+    title: "Martini Rosso Vermouth",
+    price: "R20",
+  },
+  {
+    title: "Limoncello",
+    price: "R30",
+  },
+  {
+    title: "Kahlua",
+    price: "R28",
+  },
+  {
+    title: "Amarula",
+    price: "R20",
+  },
+];
+
+const beverages = [
+  {
+    title: "Espresso single",
+    price: "R20",
+    tags: "Double | R29",
+  },
+  {
+    title: "Macchiato/Cortado",
+    price: "R32",
+  },
+  {
+    title: "Americano",
+    price: "R30",
+  },
+  {
+    title: "Flat White",
+    price: "R34",
+  },
+  {
+    title: "Cappuccino",
+    price: "R35",
+  },
+  {
+    title: "Cafe Latte",
+    price: "R36",
+  },
+  {
+    title: "Chai Latte",
+    price: "R36",
+  },
+  {
+    title: "Decaf Cappuccino",
+    price: "R36",
+  },
+  {
+    title: "Rooibos Cappucino",
+    price: "R36",
+  },
+  {
+    title: "Mocha",
+    price: "R36",
+  },
+  {
+    title: "Ceylon/Rooibos Tea",
+    price: "R23",
+  },
+  {
+    title: "English Breakfast/Green Tea",
+    price: "R25",
+  },
+];
+
+const lunchstarters = [
+  {
+    title: "Pan-fried abalone with curried aioli",
+    price: "R105",
+  },
+  {
+    title: "Fish Cakes with tartare",
+    price: "R85",
+  },
+  {
+    title: "Abalone and prawn half-moons with cucumber and fennel slaw",
+    price: "R90",
+  },
+  {
+    title: "Beef carpaccio",
+    price: "R110",
+  },
+  {
+    title: "Patagonian squid tubes with chimicurri dressing and fragrant rice",
+    price: "R120",
+  },
+  {
+    title: "Mussels in a creamy white sauce",
+    price: "R115",
+    tags: "Also avaialable in tomato-based sauce",
+  },
+  {
+    title: "Creamed abalone with rice and crostini",
+    price: "R120",
+  },
+];
+
+const lunchmains = [
+  {
+    title: "Caesar salad",
+    price: "R90",
+    tags: "Add chicken or avocado | R30",
+  },
+  {
+    title: "Old Harbour Chowder",
+    price: "R120",
+    tags: "Line fish | Haddock | Mussels",
+  },
+  {
+    title: "Seafood orecchiette pasta",
+    price: "R160",
+    tags: "Line fish | Mussels | Calamari | Prawns | Neapolitan sauce",
+  },
+  {
+    title: "Pan-fried hake with potato and green bean salad",
+    price: "R120",
+  },
+  {
+    title:
+      "Slow-roasted pork belly, creamy samp, green beans and caramelised onions",
+    price: "R185",
+  },
+  {
+    title: "Abalone risotto",
+    price: "R140",
+  },
+  {
+    title: "Abalone risotto",
+    price: "R140",
+  },
+  {
+    title: "Felafel",
+    price: "R125",
+  },
+];
+
+const lunchdesserts = [
+  {
+    title: "Chocolate ganache tart",
+    price: "R80",
+  },
+  {
+    title: "Tipsy tart",
+    price: "R75",
+  },
+  {
+    title: "Ice cream",
+    price: "R35",
+    tags: "Vanilla | Pistacchio | Chocolate brownie",
+  },
+  {
+    title:
+      "Affogato – with vanilla ice cream, espresso and a choice of liquors",
+    price: "R75",
+    tags: "Grappa | Amarula | Kahlua",
+  },
+];
+
+const dinnerstarters = [
+  {
+    title: "Pan-fried abalone with curried aioli",
+    price: "R105",
+  },
+  {
+    title: "Beef carpaccio",
+    price: "R110",
+  },
+  {
+    title: "Patagonian squid tubes with chimicurri dressing and fragrant rice",
+    price: "R120",
+  },
+  {
+    title: "Butternut squash ravioli",
+    price: "R105",
+  },
+  {
+    title: "Creamed abalone",
+    price: "R120",
+  },
+];
+
+const dinnermains = [
+  {
+    title: "Sweat pea risotto with goats cheese croquettes",
+    price: "R140",
+  },
+  {
+    title: "Seafood orecchiette pasta",
+    price: "R160",
+    tags: "Line fish | Mussels | Calamari | Prawns | Neapolitan sauce",
+  },
+  {
+    title: "Catch of the day with fontdant potatoes and oven vegetables",
+    price: "R175",
+  },
+  {
+    title:
+      "Slow-roasted pork belly, creamy samp, green beans and caramelised onions",
+    price: "R185",
+  },
+  {
+    title: "Abalone risotto",
+    price: "R145",
+  },
+  {
+    title: "Seafood platter for two",
+    price: "R590",
+    tags: "Line fish | Prawns | Mussels | Calamari | Abalone",
+  },
+  {
+    title: "Creammy sam or mixed salad",
+    price: "R60",
+  },
+  {
+    title: "Tirmaisu",
+    price: "R85",
+  },
+];
+
+const dinnerdesserts = [
+  {
+    title: "Chocolate ganache tart",
+    price: "R80",
+  },
+  {
+    title: "Tipsy tart",
+    price: "R75",
+  },
+];
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -132,4 +586,21 @@ const awards = [
   },
 ];
 
-export default { champagnes, cocktails, beers, awards };
+export default {
+  champagnes,
+  whites,
+  roses,
+  reds,
+  spirits,
+  cocktails,
+  beers,
+  softs,
+  beverages,
+  lunchstarters,
+  lunchmains,
+  lunchdesserts,
+  dinnerstarters,
+  dinnermains,
+  dinnerdesserts,
+  awards,
+};

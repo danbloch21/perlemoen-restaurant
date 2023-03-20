@@ -10,7 +10,7 @@ const AboutUs = () => (
   >
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__poiret">ABOUT US</h1>
+        <h1 className="headtext__poiret" style={{letterSpacing: "0.1em"}}>ABOUT US</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
           The building where you are dining today was the first abalone hatchery
@@ -40,7 +40,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__poiret">OUR HISTORY</h1>
+        <h1 className="headtext__poiret" style={{letterSpacing: "0.1em"}}>OUR HISTORY</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
           Ever since the 1850s, visitors have been drawn to Hermanus by the

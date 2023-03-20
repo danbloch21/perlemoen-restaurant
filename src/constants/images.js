@@ -21,7 +21,6 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 import Shells233pc from "../assets/Shells233pc.png";
-import P from "../assets/P.png";
 
 export default {
   bg,
@@ -47,5 +46,4 @@ export default {
   quote,
   gericht,
   Shells233pc,
-  P,
 };

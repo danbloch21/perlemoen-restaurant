@@ -10,11 +10,18 @@ const SpecialMenu = () => {
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
         <SubHeading title="DRINKS" />
-        <h1 className="headtext__poiret">WHAT’S YOUR TIPPLE?</h1>
+        <h1 className="headtext__poiret" style={{ letterSpacing: "0.09em" }}>
+          WHAT’S YOUR TIPPLE?
+        </h1>
       </div>
       <div className="app__specialMenu-menu">
         <div className="app__specialMenu-menu_wine flex__center">
-          <p className="app__specialMenu-menu_heading">BEERS & CIDERS</p>
+          <p
+            className="app__specialMenu-menu_heading"
+            style={{ letterSpacing: "0.1em" }}
+          >
+            BEERS & CIDERS
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.beers.map((beer, index) => (
               <MenuItem
@@ -32,7 +39,12 @@ const SpecialMenu = () => {
         </div>
 
         <div className="app__specialMenu-menu_cocktails flex__center">
-          <p className="app__specialMenu-menu_heading">COCKTAILS</p>
+          <p
+            className="app__specialMenu-menu_heading"
+            style={{ letterSpacing: "0.1em" }}
+          >
+            COCKTAILS
+          </p>
           <div className="app__specialMenu_menu_items">
             {data.cocktails.map((cocktail, index) => (
               <MenuItem
@@ -52,41 +64,28 @@ const SpecialMenu = () => {
         <button
           onClick={() => setToggleMenu(true)}
           type="button"
-          className="custom__button wines"
+          className="custom__button"
         >
           WINES
         </button>
-        {toggleMenu && (
-          <div className="app__specialmenu-wines_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => setToggleMenu(false)}
-            />
-            <div className="app__specialMenu-title">
-        <SubHeading title="DRINKS" />
-        <h1 className="headtext__poiret">WINES</h1>
-      </div>
-          </div>
-        )}
 
-        <button type="button" className="custom__button spirits">
+        <button type="button" className="custom__button">
           SPIRITS & LIQUEURS
         </button>
 
-        <button type="button" className="custom__button lunch">
+        <button type="button" className="custom__button">
           LUNCH MENU
         </button>
 
-        <button type="button" className="custom__button dinner">
+        <button type="button" className="custom__button">
           DINNER MENU
         </button>
 
-        <button type="button" className="custom__button soft">
+        <button type="button" className="custom__button">
           SOFT DRINKS
         </button>
 
-        <button type="button" className="custom__button beverages">
+        <button type="button" className="custom__button">
           BEVERAGES
         </button>
       </div>

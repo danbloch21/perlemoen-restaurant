@@ -8,7 +8,7 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper-info">
       <SubHeading title="SENSATIONAL SUSTAINABLE SEAFOOD" />
-      <h1 className="app__header-h1">Taste The Ocean</h1>
+      <h1 className="app__header-h1" style={{letterSpacing: "0.07em"}}>Taste The Ocean</h1>
       <p className="app__p-opensans">
         Take a stroll down to Hermanus's Old Harbour, a place steeped in
         history, and drink in the famous “champagne air” while savouring the
