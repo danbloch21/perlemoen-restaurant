@@ -1,11 +1,17 @@
 import React, { useState } from "react";
-import { SubHeading, MenuItem } from "../../components";
+import { SubHeading, WineList, MenuItem } from "../../components";
 import { images, data } from "../../constants";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleWineList, setToggleWineList] = useState(false);
+  const [toggleSpiritList, setToggleSpiritList] = useState(false);
+  const [toggleSoftList, setToggleSoftList] = useState(false);
+  const [toggleBeverageList, setToggleBeverageList] = useState(false);
+  const [toggleLunchMenu, setToggleLunchMenu] = useState(false);
+  const [toggleDinnerMenu, setToggleDinnerMenu] = useState(false);
+
   return (
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
@@ -60,12 +66,9 @@ const SpecialMenu = () => {
           </p>
         </div>
       </div>
+
       <div className="app__specialmenu-buttons">
-        <button
-          onClick={() => setToggleMenu(true)}
-          type="button"
-          className="custom__button"
-        >
+        <button type="button" className="custom__button">
           WINES
         </button>
 
