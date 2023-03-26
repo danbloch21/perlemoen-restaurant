@@ -1,9 +1,9 @@
 {
   "main.css": "/perlemoen-restaurant/static/css/main.8af6ff6e.chunk.css",
-  "main.js": "/perlemoen-restaurant/static/js/main.b9030628.chunk.js",
-  "main.js.map": "/perlemoen-restaurant/static/js/main.b9030628.chunk.js.map",
-  "static/js/1.b0c7011a.chunk.js": "/perlemoen-restaurant/static/js/1.b0c7011a.chunk.js",
-  "static/js/1.b0c7011a.chunk.js.map": "/perlemoen-restaurant/static/js/1.b0c7011a.chunk.js.map",
+  "main.js": "/perlemoen-restaurant/static/js/main.80c65fc6.chunk.js",
+  "main.js.map": "/perlemoen-restaurant/static/js/main.80c65fc6.chunk.js.map",
+  "static/js/1.95e78bc1.chunk.js": "/perlemoen-restaurant/static/js/1.95e78bc1.chunk.js",
+  "static/js/1.95e78bc1.chunk.js.map": "/perlemoen-restaurant/static/js/1.95e78bc1.chunk.js.map",
   "runtime~main.js": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js",
   "runtime~main.js.map": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js.map",
   "static/media/meal.mp4": "/perlemoen-restaurant/static/media/meal.be2151f4.mp4",
@@ -30,6 +30,6 @@
   "static/media/Shells233pc.png": "/perlemoen-restaurant/static/media/Shells233pc.416ffe8d.png",
   "static/css/main.8af6ff6e.chunk.css.map": "/perlemoen-restaurant/static/css/main.8af6ff6e.chunk.css.map",
   "index.html": "/perlemoen-restaurant/index.html",
-  "precache-manifest.963e5d0dc75a42cc702ce9746c29767f.js": "/perlemoen-restaurant/precache-manifest.963e5d0dc75a42cc702ce9746c29767f.js",
+  "precache-manifest.30686e7a9f82969ef8c48286f06b764c.js": "/perlemoen-restaurant/precache-manifest.30686e7a9f82969ef8c48286f06b764c.js",
   "service-worker.js": "/perlemoen-restaurant/service-worker.js"
 }
