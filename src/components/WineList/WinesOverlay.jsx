@@ -3,7 +3,7 @@ import { SubHeading, MenuItem } from "../../components";
 import { images, data } from "../../constants";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
-const WineList = ({ wines }) => (
+const WinesOverlay = ({ wines }) => (
   <div className="app__wineList flex__center section__padding" id="menu">
     <div className="app__wineList-title">
       <SubHeading title="DRINKS" />
@@ -32,4 +32,4 @@ const WineList = ({ wines }) => (
   </div>
 );
 
-export default Winelist;
+export default WinesOverlay;
