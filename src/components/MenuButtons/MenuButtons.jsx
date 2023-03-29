@@ -6,34 +6,32 @@ const MenuButtons = () => {
 
   return (
     <div className="app__specialMenu-buttons">
-      <div className="app__menubuttons-smallscreen">
-        <button
-          onClick={() => setOverlay("wines")}
-          type="button"
-          className="custom__button"
-        >
-          WINES
-        </button>
-        <button type="button" className="custom__button">
-          SPIRITS & LIQUEURS
-        </button>
+      <button
+        onClick={() => setOverlay("wines")}
+        type="button"
+        className="custom__button"
+      >
+        WINES
+      </button>
+      <button type="button" className="custom__button">
+        SPIRITS & LIQUEURS
+      </button>
 
-        <button type="button" className="custom__button">
-          LUNCH MENU
-        </button>
+      <button type="button" className="custom__button">
+        LUNCH MENU
+      </button>
 
-        <button type="button" className="custom__button">
-          DINNER MENU
-        </button>
+      <button type="button" className="custom__button">
+        DINNER MENU
+      </button>
 
-        <button type="button" className="custom__button">
-          SOFT DRINKS
-        </button>
+      <button type="button" className="custom__button">
+        SOFT DRINKS
+      </button>
 
-        <button type="button" className="custom__button">
-          BEVERAGES
-        </button>
-      </div>
+      <button type="button" className="custom__button">
+        BEVERAGES
+      </button>
     </div>
   );
 };
