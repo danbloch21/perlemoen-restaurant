@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { WinesOverlay } from "../../components";
 
-const renderOverlay = (value) => {
+RenderOverlay = function({ value }) {
   const [overlay, setOverlay] = useState(null);
 
   if (!value) {
@@ -19,26 +19,14 @@ const renderOverlay = (value) => {
   } else if (value === "beverages") {
     return <BeveragesOverlay />;
   }
-};
 
-<div className="app__specialmenu-smallscreen">
   <button
     type="button"
     className="custom__button"
     onClick={() => setOverlay("wines")}
   >
     WINES
-  </button>
+  </button>;
+};
 
-  {overlay ? (
-    <div className="app__specialmenu-smallscreen_overlay flex__center slide-bottom">
-      <MdOutlineRestaurantMenu
-        fontSize={27}
-        className="overlay__close"
-        onClick={() => setOverlay(null)}
-      />
-    </div>
-  ) : null}
-</div>;
-
-export function renderOverlay();
+export default RenderOverlay;

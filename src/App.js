@@ -10,6 +10,9 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
+  ButtonsTest,
+  RenderOverlay,
+  WineList,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";

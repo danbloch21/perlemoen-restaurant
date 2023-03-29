@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { SubHeading, MenuItem } from "../../components";
 import { images, data } from "../../constants";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 const WinesOverlay = ({ wines }) => (
-  <div className="app__wineList flex__center section__padding" id="menu">
+  <div className="app__wineList flex__center section__padding" id="wines">
     <div className="app__wineList-title">
       <SubHeading title="DRINKS" />
       <h1 className="headtext__poiret" style={{ letterSpacing: "0.09em" }}>

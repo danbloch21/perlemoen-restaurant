@@ -49,12 +49,12 @@
     width: 100%;
 }
 
-.app__specialmenu-buttons {
+.app__specialMenu-buttons {
     flex: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: space-between;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
 
 .custom__button {
@@ -80,6 +80,14 @@
      .app__specialMenu-menu_img img {
         height: 500px; 
      }
+
+     .app__specialmMenu-buttons {
+        flex: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-between;
+        flex-flow: row wrap;
+    }
 }
 
 
@@ -112,14 +120,6 @@
         line-height: 48.5px;
     }
 
-    .app__specialmenu-buttons {
-        flex: 1;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: space-evenly;
-        flex-flow: row wrap;
-    }
-
 }
 
 @media screen and (max-width: 550px) {
@@ -145,11 +145,11 @@
     height: 440px;
 }
 
-.app__specialmenu-buttons {
+.app__specialMenu-buttons {
     flex: 1;
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
+    align-items: center;
     flex-direction: column;
 }
 

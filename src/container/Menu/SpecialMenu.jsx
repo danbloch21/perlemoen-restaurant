@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import {
-  SubHeading,
-  WineList,
-  MenuItem,
-  renderOverlay,
-} from "../../components";
+import { SubHeading, WineList, MenuItem } from "../../components";
+import MenuButtons from "../../components/MenuButtons/MenuButtons";
 import { images, data } from "../../constants";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import "./SpecialMenu.css";
@@ -63,9 +59,8 @@ const SpecialMenu = () => (
         </p>
       </div>
     </div>
-
-    <div className="app__specialmenu-buttons">
-      <renderOverlay />
+    <div className="app__specialMenu-buttons">
+      <MenuButtons />
     </div>
   </div>
 );

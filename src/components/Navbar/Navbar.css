@@ -121,8 +121,12 @@ border-bottom: 1px solid var(--color-golden);
 }
 
 @media screen and (max-width: 1280px) {
+    .app__navbar {
+        padding: 1.5rem 2rem 1rem 2rem;
+    }
+    
     .app__navbar-logo img {
-        width: 250px;
+        width: 200px;
     }
 
     h1 {
@@ -201,21 +205,22 @@ border-bottom: 1px solid var(--color-golden);
 
 @media screen and (max-width: 830px) {
     .app__navbar {
-        padding: 1rem 5rem 1rem 3rem;
+        padding: 1rem 3.5rem 1rem 3rem;
     }
 
     .app__navbar-logo img {
-        width: 250px;
+        width: 360px;
+        padding: 1.5rem rem 1.5rem 3rem
     }
 }
 
 @media screen and (max-width: 800px) {
     .app__navbar {
-        padding: 1rem 2rem 1rem 3rem;
+        padding: 1rem 2.5rem 1rem 3rem;
     }
 
     .app__navbar-logo img {
-        width: 250px;
+        width: 350px;
     }
 }
 
@@ -233,7 +238,7 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 150px;
+        width: 200px;
     }
 
     .app__navbar-smallscreen_links li {
@@ -249,7 +254,7 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .app__navbar-login {
@@ -257,7 +262,7 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 155px;
+        width: 110px;
     }
 
     .app__navbar-smallscreen_links li {
@@ -273,7 +278,7 @@ border-bottom: 1px solid var(--color-golden);
 
 @media screen and (max-width: 400px) {
     .app__navbar {
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 1.7rem;
     }
 
     h1 {
@@ -285,7 +290,7 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 140px;
+        width: 100px;
     }
     .app__navbar-smallscreen_overlay {
         height: 110vh;
@@ -294,6 +299,12 @@ border-bottom: 1px solid var(--color-golden);
       .app__navbar-smallscreen_links li {
         text-align: center;
         padding-right: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .app__navbar {
+        padding: 1rem 2rem 1rem 1.3rem;
     }
 }
 

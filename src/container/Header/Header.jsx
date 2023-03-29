@@ -4,7 +4,8 @@ import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Header.css";
 
-const Header = () => (
+const Header = () =>
+(
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper-info">
       <SubHeading title="SENSATIONAL SUSTAINABLE SEAFOOD" />
