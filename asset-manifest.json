@@ -1,9 +1,9 @@
 {
-  "main.css": "/perlemoen-restaurant/static/css/main.8af6ff6e.chunk.css",
-  "main.js": "/perlemoen-restaurant/static/js/main.80c65fc6.chunk.js",
-  "main.js.map": "/perlemoen-restaurant/static/js/main.80c65fc6.chunk.js.map",
-  "static/js/1.95e78bc1.chunk.js": "/perlemoen-restaurant/static/js/1.95e78bc1.chunk.js",
-  "static/js/1.95e78bc1.chunk.js.map": "/perlemoen-restaurant/static/js/1.95e78bc1.chunk.js.map",
+  "main.css": "/perlemoen-restaurant/static/css/main.13ab2880.chunk.css",
+  "main.js": "/perlemoen-restaurant/static/js/main.88fe01c4.chunk.js",
+  "main.js.map": "/perlemoen-restaurant/static/js/main.88fe01c4.chunk.js.map",
+  "static/js/1.07cba973.chunk.js": "/perlemoen-restaurant/static/js/1.07cba973.chunk.js",
+  "static/js/1.07cba973.chunk.js.map": "/perlemoen-restaurant/static/js/1.07cba973.chunk.js.map",
   "runtime~main.js": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js",
   "runtime~main.js.map": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js.map",
   "static/media/meal.mp4": "/perlemoen-restaurant/static/media/meal.be2151f4.mp4",
@@ -28,8 +28,8 @@
   "static/media/award05.png": "/perlemoen-restaurant/static/media/award05.d13582bf.png",
   "static/media/sign.png": "/perlemoen-restaurant/static/media/sign.f1363e1d.png",
   "static/media/Shells233pc.png": "/perlemoen-restaurant/static/media/Shells233pc.416ffe8d.png",
-  "static/css/main.8af6ff6e.chunk.css.map": "/perlemoen-restaurant/static/css/main.8af6ff6e.chunk.css.map",
+  "static/css/main.13ab2880.chunk.css.map": "/perlemoen-restaurant/static/css/main.13ab2880.chunk.css.map",
   "index.html": "/perlemoen-restaurant/index.html",
-  "precache-manifest.30686e7a9f82969ef8c48286f06b764c.js": "/perlemoen-restaurant/precache-manifest.30686e7a9f82969ef8c48286f06b764c.js",
+  "precache-manifest.537fe5af979913cb50429f4163c5862b.js": "/perlemoen-restaurant/precache-manifest.537fe5af979913cb50429f4163c5862b.js",
   "service-worker.js": "/perlemoen-restaurant/service-worker.js"
 }
