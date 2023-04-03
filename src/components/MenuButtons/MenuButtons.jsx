@@ -3,24 +3,28 @@ import WinesOverlay from "../../components/WinesOverlay/WinesOverlay";
 
 const MenuButtons = () => {
   const [overlay, setOverlay] = useState(null);
-  const renderOverlay = ({ value }) => {
+  const renderOverlay = (value) => {
     if (!value) {
-      return
+      return;
+    } else if (value === "wines") {
+      return (
+        <div className="app__specialMenu-smallscreen">
+          <WinesOverlay />
+        </div>
+      );
     }
-     else if (value === 'wines') {
-        return <WinesOverlay />
-      } 
-    };
+  };
 
   return (
     <div className="app__specialMenu-buttons">
       <button
-        onClick={() => setOverlay("wines")}
+        onClick={(renderOverlay) => setOverlay("wines")}
         type="button"
         className="custom__button"
       >
         WINES
       </button>
+
       <button type="button" className="custom__button">
         SPIRITS & LIQUEURS
       </button>
@@ -41,7 +45,6 @@ const MenuButtons = () => {
         BEVERAGES
       </button>
     </div>
-
   );
 };
 
