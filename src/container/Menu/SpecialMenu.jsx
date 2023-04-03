@@ -14,7 +14,7 @@ const SpecialMenu = () => (
       </h1>
     </div>
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine flex__center">
+      <div className="app__specialMenu-menu_beers flex__center">
         <p
           className="app__specialMenu-menu_heading"
           style={{ letterSpacing: "0.1em" }}
