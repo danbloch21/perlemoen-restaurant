@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { SubHeading, WineList, MenuItem } from "../../components";
+import { SubHeading, MenuItem } from "../../components";
 import MenuButtons from "../../components/MenuButtons/MenuButtons";
 import { images, data } from "../../constants";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
@@ -59,7 +59,7 @@ const SpecialMenu = () => (
         </p>
       </div>
     </div>
-    <div className="app__specialMenu-buttons">
+    <div className="app__specialmenu-buttons">
       <MenuButtons />
     </div>
   </div>

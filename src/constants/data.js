@@ -109,10 +109,7 @@ const beers = [
   },
 ];
 
-const whites = [
-  {
-    /* Sauvignon Blancs */
-  },
+const sauvignons = [
   {
     title: "Ataraxia",
     price: "R230",
@@ -130,9 +127,9 @@ const whites = [
     title: "Benguela Cove Estate Sauvignon",
     price: "R275",
   },
-  {
-    /* Chenin Blancs */
-  },
+];
+
+const chenins = [
   {
     title: "Gabriëlskloof",
     price: "R220",
@@ -142,16 +139,16 @@ const whites = [
     title: "Creation Cool Climate",
     price: "R300",
   },
-  {
-    /* Viognier */
-  },
+];
+
+const viogniers = [
   {
     title: "Creation",
     price: "R245",
   },
-  {
-    /* Chardonnays */
-  },
+];
+
+const chardonnays = [
   {
     title: "Bouchard Finlayson Sans Barrique",
     price: "R295",
@@ -168,9 +165,9 @@ const whites = [
     title: "Hamilton Russell Estate",
     price: "R895",
   },
-  {
-    /* Blends */
-  },
+];
+
+const whiteblends = [
   {
     title: "Bouchard Finlayson Blanc De Mer",
     price: "R175",
@@ -198,10 +195,7 @@ const roses = [
   },
 ];
 
-const reds = [
-  {
-    /* Pinot Noir */
-  },
+const pinots = [
   {
     title: "Ataraxia",
     price: "R535",
@@ -210,9 +204,9 @@ const reds = [
     title: "Bouchard Finlayson Galpin Peak",
     price: "R665",
   },
-  {
-    /* Shiraz */
-  },
+];
+
+const shirazes = [
   {
     title: "Creation Reserve Syrah",
     price: "R580",
@@ -221,9 +215,9 @@ const reds = [
     title: "Gabriëlskloof Syrah",
     price: "R296",
   },
-  {
-    /* Pinotage */
-  },
+];
+
+const pinotages = [
   {
     title: "Whalehaven",
     price: "R325",
@@ -232,9 +226,9 @@ const reds = [
     title: "Southern Right",
     price: "R575",
   },
-  {
-    /* Blends */
-  },
+];
+
+const redblends = [
   {
     title: "La Vierge Nymphomane",
     price: "R290",
@@ -244,9 +238,9 @@ const reds = [
     price: "R165",
     tags: "Glass | R50",
   },
-  {
-    /* Dessert Wine */
-  },
+];
+
+const dessertwines = [
   {
     title: "Creation Fine Cape Vintage Port",
     tags: "Glass | R50",
@@ -254,9 +248,6 @@ const reds = [
 ];
 
 const spirits = [
-  {
-    /* Spirits/liqueurs */
-  },
   {
     title: "Absolut Vodka",
     price: "R25",
@@ -588,12 +579,18 @@ const awards = [
 
 export default {
   champagnes,
-  whites,
-  roses,
-  reds,
-  spirits,
   cocktails,
   beers,
+  sauvignons,
+  chenins,
+  viogniers,
+  chardonnays,
+  whiteblends,
+  roses,
+  pinots,
+  pinotages,
+  redblends,
+  dessertwines,
   softs,
   beverages,
   lunchstarters,
