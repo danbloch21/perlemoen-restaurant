@@ -16,8 +16,8 @@ const Overlay = ({ title, handleClose }) => {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
         <SubHeading title="DRINKS" />
-        <MenuHeader title="SPARKLING WINES" />
-        <CategoryHeader title="METHODE CAP CLASSIQUE WINES" />
+        <MenuHeader title="WHITE WINES" />
+        <CategoryHeader title="SPARKLING WINES" />
         <div className="app__overlayMenu-menu">
           <div className="app__overlayMenu-menu_champagnes flex__center">
             <div className="app__overlayMenu_menu_items">
@@ -31,7 +31,6 @@ const Overlay = ({ title, handleClose }) => {
               ))}
               <div className="app__overlayMenu-menu">
                 <div className="app__overlayMenu-menu_sauvignons flex__center">
-                  <MenuHeader title="WHITE WINES" />
                   <CategoryHeader title="SAUVIGNON BLANCS" />
                   <div className="app__overlayMenu_menu_items">
                     {data.sauvignons.map((sauvignon, index) => (

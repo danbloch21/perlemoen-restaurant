@@ -1,7 +1,6 @@
 .app__overlayMenu {
     flex-direction: column;
     background: var(--color-black);
-    padding: 10rem 10rem;
 }
 
 .app__overlayMenu-title {
@@ -36,7 +35,7 @@
 .app__overlay-smallscreen_overlay {
     position: fixed;
     align-items: center;
-    padding: 58rem 0rem 0rem 0rem;
+    padding: 55rem 0rem 0rem 0rem;
     top: 0;
     left: 0;
     width: 100%;
@@ -47,7 +46,7 @@
     flex-direction: column;
     z-index: 5; /* means overlay covers entire screen */
   
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: 100%;
 
    
@@ -62,3 +61,7 @@
     top: 20px;
     right: 20px;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
