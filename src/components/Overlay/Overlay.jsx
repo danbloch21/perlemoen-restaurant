@@ -15,8 +15,8 @@ const Overlay = ({ title, handleClose }) => {
   if (title === "wines") {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
+        <SubHeading title="DRINKS" />
         <div className="app__overlayMenu-title">
-          <SubHeading title="DRINKS" />
           <MenuHeader title="WHITES & BUBBLY" />
         </div>
         <div className="app__overlayMenu-menu">

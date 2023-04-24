@@ -171,7 +171,15 @@
   }
 
   .headtext__poiret {
-    font-size: 45px;
+    font-size: 40px;
     line-height: 70px;
   }
+}
+
+@media screen and (max-width: 300px) {
+  .headtext__poiret {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
 }

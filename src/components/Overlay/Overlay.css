@@ -1,7 +1,8 @@
 .app__overlay-smallscreen_overlay {
     position: fixed;
     align-items: center;
-    padding-top: 15rem;
+    padding-top: 25rem;
+    max-height: 1270px;
     top: 0;
     left: 0;
     width: 100%;
@@ -11,6 +12,13 @@
     flex-direction: column;
     z-index: 5; /* means overlay covers entire screen */
     overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 100%;
+}
+
+.app__overlay-smallscreen_overlay::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 
 .app__overlay-smallscreen_overlay .overlay__close {
@@ -22,15 +30,7 @@
     right: 20px;
 }
 
-.app__overlayMenu {
-    flex-direction: column;
-    background: var(--color-black);
-}
 
- .app__overlayMenu-title {
-    margin-bottom: 2rem;
-    text-align: center;
-}
 
 .app__overlayMenu-menu {
     width: 100%;
@@ -40,6 +40,11 @@
     align-items: flex-start;
     flex-flow: row wrap;
 }
+
+.app__overlayMenu-title {
+    text-align: center;
+}
+
  .app__overlayMenu-menu_heading {
     font-family: var(--font-base);
     font-weight: 600;
@@ -55,6 +60,13 @@
     flex-direction: column;
 }
 
+.app__overlayMenu_menu_items {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
 .app__overlayMenu-left {
     padding: 0rem 2rem;
 }
@@ -64,3 +76,92 @@
 }
 
 
+
+@media screen and (max-width: 1100px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 25rem;
+        max-height: 1400px;
+        height: 105vh; /* means entire height of screen */
+    }
+
+    .app__overlayMenu-menu {
+        width: 100%;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 50rem;
+        max-height: 1300px;
+        height: 105vh; /* means entire height of screen */
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 45rem;
+        max-height: 1800px;
+        height: 105vh; /* means entire height of screen */
+    }
+ 
+     .app__overlayMenu-menu_heading {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 38rem;
+        max-height: 1800px;
+        height: 105vh; /* means entire height of screen */
+    }
+ 
+     .app__overlayMenu-menu_heading {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 37rem;
+        max-height: 2500px;
+        height: 105vh; /* means entire height of screen */
+    }
+ 
+     .app__overlayMenu-menu_heading {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 2px;
+
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .app__overlay-smallscreen_overlay {
+        padding-top: 44rem;
+        max-height: 3500px;
+        height: 105vh; /* means entire height of screen */
+    }
+ 
+     .app__overlayMenu-menu_heading {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 2px;
+
+    }
+
+}
