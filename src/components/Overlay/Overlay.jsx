@@ -12,7 +12,7 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 /** line below receives the two props from MenuButtons file. According to the value held in state for title, it renders on the overlay what's in each if... else condition. handleClose closes the overlay via the knife and sppon icon at the top right of the overlay */
 
 const Overlay = ({ title, handleClose }) => {
-  if (title === "wines") {
+  if (title === "whites-and-bubbly") {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
         <SubHeading title="DRINKS" />
@@ -23,7 +23,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_champagnes flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="SPARKLING WINES" />
+                <CategoryHeader title="SPARKLING WINE" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.champagnes.map((champagne, index) => (
@@ -38,7 +38,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_chardonnays flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="CHARDONNAYS" />
+                <CategoryHeader title="CHARDONNAY" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.chardonnays.map((chardonnay, index) => (
@@ -53,7 +53,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_chenins flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="CHENIN BLANCS" />
+                <CategoryHeader title="CHENIN BLANC" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.chenins.map((chenin, index) => (
@@ -70,7 +70,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-right">
             <div className="app__overlayMenu-menu_sauvignons flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="SAUVIGNON BLANCS" />
+                <CategoryHeader title="SAUVIGNON BLANC" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.sauvignons.map((sauvignon, index) => (
@@ -100,7 +100,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_whiteblends flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="BLENDS" />
+                <CategoryHeader title="BLEND" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.whiteblends.map((whiteblend, index) => (
@@ -122,10 +122,110 @@ const Overlay = ({ title, handleClose }) => {
         </div>
       </div>
     );
-  } else if (title === "spirits-and-liqueurs") {
+  } else if (title === "reds-and-rose") {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
-        <SubHeading title="SPIRITS & LIQUEURS" />
+        <SubHeading title="DRINKS" />
+        <div className="app__overlayMenu-title">
+          <MenuHeader title="REDS & ROSÉ" />
+        </div>
+        <div className="app__overlayMenu-menu">
+          <div className="app__overlayMenu-left">
+            <div className="app__overlayMenu-menu_pinots flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="PINOT NOIR" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.pinots.map((pinot, index) => (
+                  <MenuItem
+                    key={pinot.title + index}
+                    title={pinot.title}
+                    price={pinot.price}
+                    tags={pinot.tags}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="app__overlayMenu-menu_shirazes flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="SHIRAZ" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.shirazes.map((shiraz, index) => (
+                  <MenuItem
+                    key={shiraz.title + index}
+                    title={shiraz.title}
+                    price={shiraz.price}
+                    tags={shiraz.tags}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="app__overlayMenu-menu_pinotages flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="PINOTAGE" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.pinotages.map((pinotage, index) => (
+                  <MenuItem
+                    key={pinotage.title + index}
+                    title={pinotage.title}
+                    price={pinotage.price}
+                    tags={pinotage.tags}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="app__overlayMenu-right">
+            <div className="app__overlayMenu-menu_redblends flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="BLEND" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.redblends.map((redblend, index) => (
+                  <MenuItem
+                    key={redblend.title + index}
+                    title={redblend.title}
+                    price={redblend.price}
+                    tags={redblend.tags}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="app__overlayMenu-menu_dessertwines flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="DESSERT WINE" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.dessertwines.map((dessertwine, index) => (
+                  <MenuItem
+                    key={dessertwine.title + index}
+                    title={dessertwine.title}
+                    price={dessertwine.price}
+                    tags={dessertwine.tags}
+                  />
+                ))}
+              </div>
+            </div>
+            <div className="app__overlayMenu-menu_roses flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="ROSÉ" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.roses.map((rose, index) => (
+                  <MenuItem
+                    key={rose.title + index}
+                    title={rose.title}
+                    price={rose.price}
+                    tags={rose.tags}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
         <MdOutlineRestaurantMenu
           fontSize={27}
           className="overlay__close"

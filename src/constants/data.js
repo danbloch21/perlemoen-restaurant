@@ -234,7 +234,7 @@ const redblends = [
     price: "R290",
   },
   {
-    title: "Whalhaven Abalone",
+    title: "Whalehaven Abalone",
     price: "R165",
     tags: "Glass | R50",
   },
@@ -588,6 +588,7 @@ export default {
   whiteblends,
   roses,
   pinots,
+  shirazes,
   pinotages,
   redblends,
   dessertwines,

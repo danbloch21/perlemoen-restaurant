@@ -15,7 +15,7 @@ const MenuButtons = () => {
       {" "}
       {/** onClick handler updates state to "wines" */}
       <button
-        onClick={() => setOverlay("wines")}
+        onClick={() => setOverlay("whites-and-bubbly")}
         type="button"
         className="custom__button"
       >
@@ -24,7 +24,7 @@ const MenuButtons = () => {
       {overlay ? <Overlay title={overlay} handleClose={handleClose} /> : null}{" "}
       {/** passes the string that's set in state, e.g wines, as a prop, as well as the handleClose function */}
       <button
-        onClick={() => setOverlay("spirits-and-liqueurs")}
+        onClick={() => setOverlay("reds-and-rose")}
         type="button"
         className="custom__button"
       >

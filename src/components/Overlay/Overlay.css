@@ -54,7 +54,7 @@
     text-align: center; 
 }
 
-.app__overlayMenu-menu_champagnes, .app__overlayMenu-menu_sauvignons, .app__overlayMenu-menu_chenins, .app__overlayMenu-menu_chardonnays, .app__overlayMenu-menu_viogniers, .app__overlayMenu-menu_whiteblends, .app__overlayMenu-menu_roses  {
+.app__overlayMenu-menu_champagnes, .app__overlayMenu-menu_sauvignons, .app__overlayMenu-menu_chenins, .app__overlayMenu-menu_chardonnays, .app__overlayMenu-menu_viogniers, .app__overlayMenu-menu_whiteblends, .app__overlayMenu-menu_pinots, .app__overlayMenu-menu_shirazes, .app__overlayMenu-menu_pinotages, .app__overlayMenu-menu_redblends, .app__overlayMenu-menu_dessertwines, .app__overlayMenu-menu_roses  {
     flex: 1;
     width: 100%;
     flex-direction: column;
@@ -85,7 +85,7 @@
     }
 
     .app__overlayMenu-menu {
-        width: 100%;
+        width: 110%;
         margin: 2rem 0;
         display: flex;
         justify-content: center;
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 800px) {
     .app__overlay-smallscreen_overlay {
-        padding-top: 50rem;
+        padding-top: 52rem;
         max-height: 1300px;
         height: 105vh; /* means entire height of screen */
     }
