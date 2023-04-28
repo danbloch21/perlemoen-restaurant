@@ -243,47 +243,53 @@ const redblends = [
 const dessertwines = [
   {
     title: "Creation Fine Cape Vintage Port",
-    tags: "Glass | R50",
+    price: "R50",
+    tags: "Glass",
   },
 ];
 
-const spirits = [
+const gins = [
   {
-    title: "Absolut Vodka",
+    title: "Tanqueray",
+    price: "R25",
+  },
+  {
+    title: "Fiddler's",
+    price: "R28",
+  },
+  {
+    title: "Gordon's",
+    price: "R20",
+  },
+];
+
+const vodkas = [
+  {
+    title: "Absolut",
     price: "R25",
   },
   {
     title: "Smirnoff",
     price: "R20",
   },
+];
+
+const whiskeys = [
   {
-    title: "Bacardi Rum",
+    title: "Bells",
     price: "R20",
   },
   {
-    title: "Tanqueray Gin",
-    price: "R25",
-  },
-  {
-    title: "Fiddler's Gin",
-    price: "R28",
-  },
-  {
-    title: "Gordon's Gin",
-    price: "R20",
-  },
-  {
-    title: "Bells Scotch Whiskey",
-    price: "R20",
-  },
-  {
-    title: "Jameson Irish Whiskey",
+    title: "Jameson",
     price: "R35",
   },
   {
-    title: "Glenlivet 12-year-old single malt whiskeys",
+    title: "Glenlivet 12-year-old single malt",
     price: "R50",
   },
+];
+
+const brandies = [
   {
     title: "Olofberg Brandy",
     price: "R20",
@@ -291,6 +297,46 @@ const spirits = [
   {
     title: "Grappa",
     price: "R40",
+  },
+];
+
+const rums = [
+  {
+    title: "Bacardi",
+    price: "R20",
+  },
+];
+
+const tequilas = [
+  {
+    title: "El Jimador Gold Tequila",
+    price: "R32",
+  },
+];
+
+const vermouths = [
+  {
+    title: "Martini Rosso",
+    price: "R20",
+  },
+];
+
+const liqueurs = [
+  {
+    title: "Limoncello",
+    price: "R30",
+  },
+  {
+    title: "Kahlua",
+    price: "R28",
+  },
+  {
+    title: "Amarula",
+    price: "R20",
+  },
+  {
+    title: "Campari",
+    price: "R33",
   },
   {
     title: "Jägermeister",
@@ -310,30 +356,6 @@ const softs = [
   {
     title: "Soda, Lemonade, Dry Lemon",
     price: "R22",
-  },
-  {
-    title: "Campari",
-    price: "R32",
-  },
-  {
-    title: "El Jimador Gold Tequila",
-    price: "R32",
-  },
-  {
-    title: "Martini Rosso Vermouth",
-    price: "R20",
-  },
-  {
-    title: "Limoncello",
-    price: "R30",
-  },
-  {
-    title: "Kahlua",
-    price: "R28",
-  },
-  {
-    title: "Amarula",
-    price: "R20",
   },
 ];
 
@@ -592,6 +614,14 @@ export default {
   pinotages,
   redblends,
   dessertwines,
+  gins,
+  vodkas,
+  whiskeys,
+  brandies,
+  rums,
+  tequilas,
+  vermouths,
+  liqueurs,
   softs,
   beverages,
   lunchstarters,
