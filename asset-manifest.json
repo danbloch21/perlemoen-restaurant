@@ -1,9 +1,9 @@
 {
-  "main.css": "/perlemoen-restaurant/static/css/main.c9162795.chunk.css",
-  "main.js": "/perlemoen-restaurant/static/js/main.f2bfa053.chunk.js",
-  "main.js.map": "/perlemoen-restaurant/static/js/main.f2bfa053.chunk.js.map",
-  "static/js/1.07cba973.chunk.js": "/perlemoen-restaurant/static/js/1.07cba973.chunk.js",
-  "static/js/1.07cba973.chunk.js.map": "/perlemoen-restaurant/static/js/1.07cba973.chunk.js.map",
+  "main.css": "/perlemoen-restaurant/static/css/main.fe1c964a.chunk.css",
+  "main.js": "/perlemoen-restaurant/static/js/main.3d8853a3.chunk.js",
+  "main.js.map": "/perlemoen-restaurant/static/js/main.3d8853a3.chunk.js.map",
+  "static/js/1.2817fa66.chunk.js": "/perlemoen-restaurant/static/js/1.2817fa66.chunk.js",
+  "static/js/1.2817fa66.chunk.js.map": "/perlemoen-restaurant/static/js/1.2817fa66.chunk.js.map",
   "runtime~main.js": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js",
   "runtime~main.js.map": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js.map",
   "static/media/meal.mp4": "/perlemoen-restaurant/static/media/meal.be2151f4.mp4",
@@ -28,8 +28,9 @@
   "static/media/award05.png": "/perlemoen-restaurant/static/media/award05.d13582bf.png",
   "static/media/sign.png": "/perlemoen-restaurant/static/media/sign.f1363e1d.png",
   "static/media/Shells233pc.png": "/perlemoen-restaurant/static/media/Shells233pc.416ffe8d.png",
-  "static/css/main.c9162795.chunk.css.map": "/perlemoen-restaurant/static/css/main.c9162795.chunk.css.map",
+  "static/media/whitewine.png": "/perlemoen-restaurant/static/media/whitewine.557161bb.png",
+  "static/css/main.fe1c964a.chunk.css.map": "/perlemoen-restaurant/static/css/main.fe1c964a.chunk.css.map",
   "index.html": "/perlemoen-restaurant/index.html",
-  "precache-manifest.c5755b0712951af84a54fd53b456ce72.js": "/perlemoen-restaurant/precache-manifest.c5755b0712951af84a54fd53b456ce72.js",
+  "precache-manifest.e699df92d6337cf4be5e137be8f9b1a4.js": "/perlemoen-restaurant/precache-manifest.e699df92d6337cf4be5e137be8f9b1a4.js",
   "service-worker.js": "/perlemoen-restaurant/service-worker.js"
 }
