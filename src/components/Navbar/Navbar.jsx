@@ -8,15 +8,12 @@ import "./Navbar.css";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar" style={{letterSpacing: "0.4em"}}>
+    <nav className="app__navbar" style={{ letterSpacing: "0.4em" }}>
       <h1>PERLEMOEN RESTAURANT</h1>
       <div className="app__navbar-logo">
         <img src={images.Shells233pc} alt="app logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans">
-          <a href="#home">HOME</a>
-        </li>
         <li className="p__opensans">
           <a href="#about">ABOUT</a>
         </li>
@@ -31,9 +28,6 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          LOG IN / REGISTER
-        </a>
         <div />
         <a href="/" className="p__opensans">
           BOOK A TABLE

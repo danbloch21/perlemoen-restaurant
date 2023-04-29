@@ -67,6 +67,7 @@ const Overlay = ({ title, handleClose }) => {
               </div>
             </div>
           </div>
+
           <div className="app__overlayMenu-right">
             <div className="app__overlayMenu-menu_sauvignons flex__center">
               <div className="app__overlayMenu-menu_heading">
@@ -360,6 +361,56 @@ const Overlay = ({ title, handleClose }) => {
                     title={liqueur.title}
                     price={liqueur.price}
                     tags={liqueur.tags}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <MdOutlineRestaurantMenu
+          fontSize={27}
+          className="overlay__close"
+          onClick={() => handleClose()}
+        />
+      </div>
+    );
+  } else if (title === "softdrinks-and-beverages") {
+    return (
+      <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
+        <SubHeading title="DRINKS" />
+        <div className="app__overlayMenu-title">
+          <MenuHeader title="HOT & COLD BEVERAGES" />
+        </div>
+        <div className="app__overlayMenu-menu">
+          <div className="app__overlayMenu-left">
+            <div className="app__overlayMenu-menu_beverages flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="COFFEE & TEA" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.beverages.map((beverage, index) => (
+                  <MenuItem
+                    key={beverage.title + index}
+                    title={beverage.title}
+                    price={beverage.price}
+                    tags={beverage.tags}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="app__overlayMenu-right">
+            <div className="app__overlayMenu-menu_softs flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="SOFT DRINKS" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.softs.map((soft, index) => (
+                  <MenuItem
+                    key={soft.title + index}
+                    title={soft.title}
+                    price={soft.price}
+                    tags={soft.tags}
                   />
                 ))}
               </div>
