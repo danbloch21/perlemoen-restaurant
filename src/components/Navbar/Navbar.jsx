@@ -52,7 +52,10 @@ const Navbar = () => {
                 <a href="#home">HOME</a>
               </li>
               <li className="p__opensans">
-                <a href="#about">ABOUT</a>
+              <div onClick={() => window.location.replace("/#about")}>
+              <span>ABOUT</span>
+              </div>
+                
               </li>
               <li className="p__opensans">
                 <a href="#menu">MENU</a>
