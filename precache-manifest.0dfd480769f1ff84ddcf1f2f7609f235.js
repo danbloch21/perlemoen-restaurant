@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3d8853a3a51508248748",
-    "url": "/perlemoen-restaurant/static/css/main.fe1c964a.chunk.css"
+    "revision": "72e4df7fbd885c5d6450",
+    "url": "/perlemoen-restaurant/static/css/main.ada48d07.chunk.css"
   },
   {
-    "revision": "3d8853a3a51508248748",
-    "url": "/perlemoen-restaurant/static/js/main.3d8853a3.chunk.js"
+    "revision": "72e4df7fbd885c5d6450",
+    "url": "/perlemoen-restaurant/static/js/main.72e4df7f.chunk.js"
   },
   {
     "revision": "2817fa66aaf5c3887e08",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/perlemoen-restaurant/static/media/whitewine.557161bb.png"
   },
   {
-    "revision": "3b37b5256fb8c02bb7ec307889558c79",
+    "revision": "47b50818e49b8274416b3353a54b6a20",
     "url": "/perlemoen-restaurant/index.html"
   }
 ];
