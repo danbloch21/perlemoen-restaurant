@@ -21,7 +21,7 @@
 }
 
 .app__menuitem-dash {
-    width: 90px;
+    width: 95px;
     height: 1px;
     background: var(--color-golden);
     margin: 0 1rem;
@@ -33,14 +33,26 @@
     align-items: flex-end;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 920px) {
+    .app__menuitem-dash {
+        width: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .app__menuitem-dash {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
     .app__menuitem-dash {
         width: 25px;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 450px) {
     .app__menuitem-dash {
-        width: 12px;
+        width: 15px;
     }
 }

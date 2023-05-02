@@ -346,7 +346,11 @@ const liqueurs = [
 
 const softs = [
   {
-    title: "Coke, Coke Zero, Fanta, Cream Soda",
+    title: "Coke, Coke Zero",
+    price: "R25",
+  },
+  {
+    title: "Fanta, Cream Soda",
     price: "R25",
   },
   {
@@ -413,33 +417,41 @@ const beverages = [
 
 const lunchstarters = [
   {
-    title: "Pan-fried abalone with curried aioli",
+    title: "Pan-fried abalone",
     price: "R105",
+    tags: "With curried aioli",
   },
   {
-    title: "Fish Cakes with tartare",
+    title: "Braised creamy abalone bake",
+    price: "R108",
+    tags: "Topped with cheddar cheese",
+  },
+  {
+    title: "Fish cakes with tartare sauce",
     price: "R85",
   },
   {
-    title: "Abalone and prawn half-moons with cucumber and fennel slaw",
-    price: "R90",
+    title: "Abalone and prawn half moons",
+    price: "R87",
+    tags: "With cucumber and fennel slaw",
   },
   {
     title: "Beef carpaccio",
     price: "R110",
   },
   {
-    title: "Patagonian squid tubes with chimicurri dressing and fragrant rice",
+    title: "Patagonian squid tubes",
     price: "R120",
+    tags: "With chimicurri dressing and fragrant rice",
   },
   {
     title: "Mussels in a creamy white sauce",
     price: "R115",
-    tags: "Also avaialable in tomato-based sauce",
   },
   {
-    title: "Creamed abalone with rice and crostini",
-    price: "R120",
+    title: "Creamed abalone",
+    price: "R115",
+    tags: "With rice and crostini",
   },
 ];
 
@@ -450,41 +462,47 @@ const lunchmains = [
     tags: "Add chicken or avocado | R30",
   },
   {
-    title: "Old Harbour Chowder",
-    price: "R120",
-    tags: "Line fish | Haddock | Mussels",
+    title: "Old Harbour chowder",
+    price: "R125",
+    tags: "With garlic toast",
   },
   {
-    title: "Seafood orecchiette pasta",
+    title: "Seafood penne pasta",
     price: "R160",
-    tags: "Line fish | Mussels | Calamari | Prawns | Neapolitan sauce",
+    tags: "With Neapolitan sauce",
   },
   {
-    title: "Pan-fried hake with potato and green bean salad",
-    price: "R120",
+    title: "Pan-fried hake",
+    price: "R125",
+    tags: "With potato and green bean salad",
   },
   {
-    title:
-      "Slow-roasted pork belly, creamy samp, green beans and caramelised onions",
+    title: "Slow-roasted pork belly",
     price: "R185",
+    tags: "With summer slaw and French fries",
   },
   {
     title: "Abalone risotto",
-    price: "R140",
-  },
-  {
-    title: "Abalone risotto",
-    price: "R140",
+    price: "R150",
   },
   {
     title: "Felafel",
     price: "R125",
+    tags: "With hummus, pickled beetroot and dukkha",
+  },
+  {
+    title: "Seafood platter for two",
+    price: "R590",
   },
 ];
 
 const lunchdesserts = [
   {
     title: "Chocolate ganache tart",
+    price: "R85",
+  },
+  {
+    title: "Baked cheesecake",
     price: "R80",
   },
   {
@@ -493,14 +511,15 @@ const lunchdesserts = [
   },
   {
     title: "Ice cream",
-    price: "R35",
-    tags: "Vanilla | Pistacchio | Chocolate brownie",
+    price: "R38",
   },
   {
-    title:
-      "Affogato – with vanilla ice cream, espresso and a choice of liquors",
+    title: "Mango sorbet",
+    price: "R40",
+  },
+  {
+    title: "Affogato ",
     price: "R75",
-    tags: "Grappa | Amarula | Kahlua",
   },
 ];
 

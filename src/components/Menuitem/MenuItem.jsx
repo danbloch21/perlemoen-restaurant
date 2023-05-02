@@ -6,7 +6,10 @@ const MenuItem = ({ title, price, tags }) => (
   <div className="app.menuitem">
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
-        <p className="p__opensans" style={{ color: "#DCCA87" }}>
+        <p
+          className="p__opensans"
+          style={{ color: "#DCCA87", textTransform: "none" }}
+        >
           {title}
         </p>
       </div>
@@ -16,7 +19,10 @@ const MenuItem = ({ title, price, tags }) => (
       </div>
     </div>
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: "#AAA" }}>
+      <p
+        className="p__opensans"
+        style={{ color: "#AAA", textTransform: "none" }}
+      >
         {tags}
       </p>
     </div>
