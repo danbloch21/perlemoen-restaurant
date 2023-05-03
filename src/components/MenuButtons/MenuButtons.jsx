@@ -51,7 +51,11 @@ const MenuButtons = () => {
       >
         LUNCH{" "}
       </button>
-      <button type="button" className="custom__button">
+      <button
+        onClick={() => setOverlay("dinner")}
+        type="button"
+        className="custom__button"
+      >
         DINNER
       </button>
     </div>

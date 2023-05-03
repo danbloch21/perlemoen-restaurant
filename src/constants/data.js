@@ -424,7 +424,6 @@ const lunchstarters = [
   {
     title: "Braised creamy abalone bake",
     price: "R108",
-    tags: "Topped with cheddar cheese",
   },
   {
     title: "Fish cakes with tartare sauce",
@@ -442,7 +441,6 @@ const lunchstarters = [
   {
     title: "Patagonian squid tubes",
     price: "R120",
-    tags: "With chimicurri dressing and fragrant rice",
   },
   {
     title: "Mussels in a creamy white sauce",
@@ -451,7 +449,6 @@ const lunchstarters = [
   {
     title: "Creamed abalone",
     price: "R115",
-    tags: "With rice and crostini",
   },
 ];
 
@@ -459,17 +456,14 @@ const lunchmains = [
   {
     title: "Caesar salad",
     price: "R90",
-    tags: "Add chicken or avocado | R30",
   },
   {
     title: "Old Harbour chowder",
     price: "R125",
-    tags: "With garlic toast",
   },
   {
     title: "Seafood penne pasta",
     price: "R160",
-    tags: "With Neapolitan sauce",
   },
   {
     title: "Pan-fried hake",
@@ -533,7 +527,7 @@ const dinnerstarters = [
     price: "R110",
   },
   {
-    title: "Patagonian squid tubes with chimicurri dressing and fragrant rice",
+    title: "Patagonian squid tubes",
     price: "R120",
   },
   {
@@ -548,21 +542,19 @@ const dinnerstarters = [
 
 const dinnermains = [
   {
-    title: "Sweat pea risotto with goats cheese croquettes",
+    title: "Sweat pea risotto",
     price: "R140",
   },
   {
     title: "Seafood orecchiette pasta",
     price: "R160",
-    tags: "Line fish | Mussels | Calamari | Prawns | Neapolitan sauce",
   },
   {
-    title: "Catch of the day with fontdant potatoes and oven vegetables",
+    title: "Catch of the day",
     price: "R175",
   },
   {
-    title:
-      "Slow-roasted pork belly, creamy samp, green beans and caramelised onions",
+    title: "Slow-roasted pork belly",
     price: "R185",
   },
   {
@@ -572,15 +564,10 @@ const dinnermains = [
   {
     title: "Seafood platter for two",
     price: "R590",
-    tags: "Line fish | Prawns | Mussels | Calamari | Abalone",
   },
   {
-    title: "Creammy sam or mixed salad",
+    title: "Creammy samp or mixed salad",
     price: "R60",
-  },
-  {
-    title: "Tirmaisu",
-    price: "R85",
   },
 ];
 
@@ -592,6 +579,10 @@ const dinnerdesserts = [
   {
     title: "Tipsy tart",
     price: "R75",
+  },
+  {
+    title: "Tirmaisu",
+    price: "R85",
   },
 ];
 

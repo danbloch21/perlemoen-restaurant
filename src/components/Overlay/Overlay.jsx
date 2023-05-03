@@ -490,6 +490,71 @@ const Overlay = ({ title, handleClose }) => {
         </div>
       </div>
     );
+  } else if (title === "dinner") {
+    return (
+      <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
+        <SubHeading title="MEALS" />
+        <div className="app__overlayMenu-title">
+          <MenuHeader title="DINNER" />
+        </div>
+        <div className="app__overlayMenu-menu">
+          <div className="app__overlayMenu-left">
+            <div className="app__overlayMenu-menu_dinnerstarters flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="STARTERS" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.dinnerstarters.map((dinnerstarter, index) => (
+                  <MenuItem
+                    key={dinnerstarter.title + index}
+                    title={dinnerstarter.title}
+                    price={dinnerstarter.price}
+                    tags={dinnerstarter.tags}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className="app__overlayMenu-right">
+            <div className="app__overlayMenu-menu_dinnermains flex__center">
+              <div className="app__overlayMenu-menu_heading">
+                <CategoryHeader title="MAIN COURSES" />
+              </div>
+              <div className="app__overlayMenu_menu_items">
+                {data.dinnermains.map((dinnermain, index) => (
+                  <MenuItem
+                    key={dinnermain.title + index}
+                    title={dinnermain.title}
+                    price={dinnermain.price}
+                    tags={dinnermain.tags}
+                  />
+                ))}
+              </div>
+              <div className="app__overlayMenu-menu_dinnerdesserts flex__center">
+                <div className="app__overlayMenu-menu_heading">
+                  <CategoryHeader title="DESSERTS" />
+                </div>
+                <div className="app__overlayMenu_menu_items">
+                  {data.dinnerdesserts.map((dinnerdessert, index) => (
+                    <MenuItem
+                      key={dinnerdessert.title + index}
+                      title={dinnerdessert.title}
+                      price={dinnerdessert.price}
+                      tags={dinnerdessert.tags}
+                    />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+          <MdOutlineRestaurantMenu
+            fontSize={27}
+            className="overlay__close"
+            onClick={() => handleClose()}
+          />
+        </div>
+      </div>
+    );
   }
 };
 
