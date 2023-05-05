@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 import images from "../../constants/images";
 import "./Navbar.css";
 
@@ -28,8 +28,10 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="app__navbar-login">
-        <div />
-        <a href="/" className="p__opensans">
+        <a
+          href="mailto: bookings@perlemoenrestaurant.com"
+          className="p__opensans"
+        >
           BOOK A TABLE
         </a>
       </div>
@@ -52,13 +54,14 @@ const Navbar = () => {
                 <a href="#home">HOME</a>
               </li>
               <li className="p__opensans">
-              <div onClick={() => window.location.replace("/#about")}>
-              <span>ABOUT</span>
-              </div>
-                
+                <div onClick={() => window.location.replace("/#about")}>
+                  <span>ABOUT</span>
+                </div>
               </li>
               <li className="p__opensans">
-                <a href="#menu">MENU</a>
+                <div onClick={() => window.location.replace("/#menu")}>
+                  <span>MENU</span>
+                </div>
               </li>
               <li className="p__opensans">
                 <a href="#awards">AWARDS</a>

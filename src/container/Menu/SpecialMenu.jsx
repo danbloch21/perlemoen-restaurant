@@ -9,7 +9,11 @@ const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="DRINKS" />
-      <h1 className="headtext__poiret" style={{ letterSpacing: "0.09em" }}>
+      <h1
+        className="headtext__poiret"
+        style={{ letterSpacing: "0.09em" }}
+        id="menu"
+      >
         WHAT’S YOUR TIPPLE?
       </h1>
     </div>

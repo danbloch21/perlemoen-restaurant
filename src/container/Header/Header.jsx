@@ -20,7 +20,9 @@ const Header = () =>
         you to our table.
       </p>
       <button type="button" className="custom__button">
+      <a href="#menu">
         EXPLORE MENU
+        </a>
       </button>
     </div>
     <div className="app__wrapper-img">
