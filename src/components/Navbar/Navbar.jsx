@@ -21,13 +21,14 @@ const Navbar = () => {
           <a href="#menu">MENU</a>
         </li>
         <li className="p__opensans">
-          <a href="#awards">AWARDS</a>
-        </li>
-        <li className="p__opensans">
           <a href="#contact">CONTACT</a>
         </li>
       </ul>
       <div className="app__navbar-login">
+        <a href="#awards" className="p__opensans">
+          AWARDS & MEDIA
+        </a>
+        <div />
         <a
           href="mailto: bookings@perlemoenrestaurant.com"
           className="p__opensans"

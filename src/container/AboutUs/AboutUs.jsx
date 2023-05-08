@@ -35,9 +35,9 @@ const AboutUs = () => (
           gastropod – literally meaning “stomach on a foot”. It is a flattened
           sea snail with ear-shaped shells, native to our cool Atlantic waters.
         </p>
-        <button type="button" className="custom__button">
+       {/* <button type="button" className="custom__button">
           KNOW MORE
-        </button>
+        </button> **/} 
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -61,9 +61,9 @@ const AboutUs = () => (
           those days, was surely a popular place to hang out – just as visitors
           are doing now, centuries later.
         </p>
-        <button type="button" className="custom__button">
+      {/* <button type="button" className="custom__button">
           KNOW MORE
-        </button>
+        </button> **/}  
       </div>
     </div>
   </div>

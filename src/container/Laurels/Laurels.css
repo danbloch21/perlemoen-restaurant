@@ -1,0 +1,7 @@
+.app__laurels-link {
+    text-transform: none;
+}
+
+.app__laurels-link a:hover {
+    color: var(--color-gray);
+}

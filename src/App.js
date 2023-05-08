@@ -21,10 +21,10 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    <Chef />
-    <Intro />
+   {/* <Chef /><Intro />**/} 
+    
     <Laurels />
-    <Gallery />
+    {/* <Gallery /> **/}
     <FindUs />
     <Footer />
   </div>
