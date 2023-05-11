@@ -2,6 +2,7 @@ import React from "react";
 import { SubHeading, MenuItem } from "../../components";
 import { images, data } from "../../constants";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
+import "./FindUs.css";
 
 const FindUs = () => (
   <div className="app__bg app__wrapper section__padding" id="contact">
@@ -55,7 +56,7 @@ const FindUs = () => (
       </div>
 
       <button className="custom__button" style={{ marginTop: "2rem" }}>
-        <a href="#navbar">BACK TO TOP</a>
+        <a href="#home">BACK TO TOP</a>
       </button>
       <div className="footer__copyright">
         <p
@@ -72,11 +73,8 @@ const FindUs = () => (
         </p>
       </div>
     </div>
-    <div className="app__wrapper_img">
-      <img
-        src={images.PerlyRestaurant}
-        alt="findus"
-      />
+    <div className="app__findus_img">
+      <img src={images.PerlyRestaurant} alt="findus" />
     </div>
   </div>
 );

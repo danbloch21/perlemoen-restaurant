@@ -1,0 +1,11 @@
+.app__findus_img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+.app__findus_img img {
+    width: 155%;
+    margin: 5rem 16rem 0 5rem;
+}

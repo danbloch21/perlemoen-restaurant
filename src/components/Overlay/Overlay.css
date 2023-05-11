@@ -62,15 +62,6 @@
     flex-direction: column;
 }
 
-.app__overlaylMenu-menu_img {
-    width: 500px;
-    height: 666px;
-}
-
-.app__overlayMenu-menu_img img {
-    width: 100%;
-    height: auto;
-}
 
 .app__overlayMenu_menu_items {
     display: flex;
