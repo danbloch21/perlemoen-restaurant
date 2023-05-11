@@ -22,6 +22,7 @@ import gericht from "../assets/gericht.png";
 import Shells233pc from "../assets/Shells233pc.png";
 import whitewine from "../assets/whitewine.png";
 import HiddenGem from "../assets/HiddenGem.png";
+import PerlyRestaurant from "../assets/PerlyRestaurant.png";
 
 export default {
   bg,
@@ -48,4 +49,5 @@ export default {
   Shells233pc,
   whitewine,
   HiddenGem,
+  PerlyRestaurant,
 };

@@ -20,22 +20,12 @@
 .app__wrapper-img img {
     width: 600px;
     height: 700px;
-    margin: 0rem 0rem 0rem 1rem;
+    margin: 0rem 1rem 0rem 2rem;
 }
 
-@media screen and (max-width: 2000px) {
-    .app__wrapper-img img {
-        padding: 0rem 5rem 0rem 4rem;
-        width: 600px;
-    }
-}
 
-@media screen and (max-width: 1300px) {
-    .app__wrapper-img img {
-        padding: 0rem 5rem 0rem 4rem;
-        width: 750px;
-    }
-}
+
+
 
 @media screen and (max-width: 1030px) {
     .app__header-h1 {
@@ -49,7 +39,7 @@
     }
 
     .app__wrapper-img img {
-        padding: 0rem 4rem 0rem 5rem;
+        margin: 5rem 4rem 0rem 3rem;
         width: 1000px;
     }
 
@@ -58,8 +48,8 @@
 @media screen and (max-width: 950px) {
 
     .app__wrapper-img img {
-        padding: 0rem 5rem 0rem 5rem;
-        width: 910px;
+        margin: 0rem 4rem 0rem 5rem;
+        width: 930px;
     }
 }
 
@@ -67,7 +57,7 @@
 @media screen and (max-width: 830px) {
 
     .app__wrapper-img img {
-        padding: 0rem 4rem 0rem 4rem;
+        margin: 0rem 3rem 0rem 4rem;
         width: 850px;
     }
 }
@@ -75,10 +65,11 @@
 @media screen and (max-width: 800px) {
 
     .app__wrapper-img img {
-        padding: 0rem 5rem 0rem 5rem;
-        width: 820px;
+        padding: 0rem 2.5rem 0rem 0.5rem;
+        width: 850px;
     }
 }
+
 
 @media screen and (max-width: 550px) {
 
@@ -88,7 +79,7 @@
     }
 
     .app__wrapper-img img {
-        padding: 2rem 2rem 0rem 1.5rem;
+        margin: 2rem 2rem 0rem 4rem;
         width: 500px;
         height: 600px;
     }
@@ -98,14 +89,9 @@
 
     .app__p-opensans {
         margin: 2rem 0rem;
-        padding: 0rem 1.8rem 0rem 0rem;
+        margin: 0rem 1.8rem 0rem 0rem;
     }
 
-    .app__wrapper-img img {
-        padding: 1.5rem 1.5rem 0rem 1rem;
-        width: 350px;
-        height: 450px;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -113,12 +99,6 @@
     .app__p-opensans {
         margin: 2rem 0rem;
         padding: 0rem 1.5rem 0rem 0rem;
-    }
-
-    .app__wrapper-img img {
-        padding: 1.5rem 1.2rem 0rem 0.5rem;
-        width: 310px;
-        height: 450px;
     }
 }
 
@@ -128,8 +108,4 @@
         padding: 0rem 2rem 0rem 0rem;
     }
 
-    .app__wrapper-img img {
-        padding: 0rem 2rem 0rem 2rem;
-        width: 275px;
-    }
 }

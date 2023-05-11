@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 2rem 6rem;
 }
 
 .flex__center {
@@ -38,9 +38,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
 
-  margin-left: 2rem;
+  margin: 0 1rem 0 2rem;
 }
 
 .app__wrapper_img-reverse {
@@ -49,7 +49,7 @@
 }
 
 .app__wrapper_img img {
-  width: 80%;
+  width: 200%;
 }
 
 .custom__button {
@@ -129,16 +129,13 @@
   }
 
   .app__wrapper_img {
-    margin: 5rem 0 0 0;
+    margin: 0 0;
   }
 
   .app__wrapper_img-reverse {
     margin: 0 0 5rem 0;
   }
 
-  .app__wrapper_img img {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 850px) {
@@ -174,6 +171,21 @@
     font-size: 36px;
     line-height: 70px;
   }
+
+  .app__wrapper-img img {
+    margin: 1.5rem 1.5rem 0rem 3.5rem;
+    width: 350px;
+    height: 450px;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+  .app__wrapper-img img {
+      margin: 1.5rem 1rem 0rem 4.5rem;
+      width: 350px;
+      height: 450px;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -182,4 +194,10 @@
     line-height: 30px;
   }
 
+  .app__wrapper-img img {
+    margin: 1rem 1rem 0 3rem;
+    width: 275px;
+    height: 375px;
+    
+}
 }

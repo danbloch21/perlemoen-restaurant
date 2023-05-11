@@ -15,18 +15,18 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
         {title}
       </p>
       <p className="p__opensans" style={{ textTransform: "none" }}>
-        One of eight restaurants recognised by the prestigious Paris-based
-        global restaurant guide and app{" "}
+        One of eight restaurants recognised by{" "}
         <a className="app__laurels-link">
           <a href="https://www.laliste.com/en/awards2023" target="_blank">
             La Liste
           </a>
         </a>{" "}
-        as ‘Hidden Gems’ in November 2022, Perlemoen was chosen as ‘worth going
-        the extra mile for’, based on recommendations from guidebooks, press
-        articles and customer reviews, as well as for its ‘entrepreneurship,
-        unexpected customer experience, local produce approach and terroir’,
-        according to the judges.
+        as ‘Hidden Gems’ in the prestigious Paris-based global restaurant guide
+        and app’s 2023 awards. Perlemoen was chosen as ‘worth going the extra
+        mile for’, based on recommendations from guidebooks, press articles and
+        customer reviews, as well as for its ‘entrepreneurship, unexpected
+        customer experience, local produce approach and terroir’, according to
+        the judges.
       </p>
     </div>
   </div>
@@ -102,7 +102,7 @@ const Laurels = () => (
         </a>
       </p>
     </div>
-    <div className="app__wrapper_img">
+    <div className="app__wrapper-img">
       <img src={images.HiddenGem} alt="laurels" />
     </div>
   </div>

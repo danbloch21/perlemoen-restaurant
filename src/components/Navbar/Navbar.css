@@ -29,7 +29,7 @@ h1 {
 }
 
 .app__navbar-logo img {
-    padding: 2rem 1rem 1rem 1rem;
+    margin: 2rem 4rem 1rem 1rem;
 }
 
 .app__navbar-links li {
@@ -133,7 +133,7 @@ border-bottom: 1px solid var(--color-golden);
 
 @media screen and (max-width: 1030px) {
     .app__navbar {
-        padding: 1.5rem 2rem 1rem 2rem;
+        padding: 1.5rem 3.5rem 1rem 2rem;
     }
 
     .app__navbar-links {
@@ -155,25 +155,11 @@ border-bottom: 1px solid var(--color-golden);
 
 
     .app__navbar-logo img {
-        width: 170px;
+        width: 150px;
+        margin: 2rem 0rem 1rem 0rem;
     }
 }
 
-
-@media screen and (max-width: 1030px) {
-    .app__navbar {
-        padding: 1rem 4.5rem 1rem 5rem;
-    }
-
-    h1 {
-        font-size: 2.2rem;
-    }
-
-    .app__navbar-logo img {
-        width: 260px;
-    }
-
-}
 
 @media screen and (max-width: 950px) {
     .app__navbar {
@@ -181,7 +167,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 250px;
+        width: 130px;
+        margin: 2rem 1rem 1rem 0rem;
     }
 }
 
@@ -206,8 +193,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 360px;
-        padding: 1.5rem rem 1.5rem 3rem
+        width: 270px;
+        margin: 2rem 4.5rem 1rem 2rem;
     }
 }
 
@@ -217,7 +204,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 350px;
+        width: 250px;
+        margin: 2rem 4.5rem 1rem 2rem;
     }
 }
 
@@ -235,7 +223,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 200px;
+        width: 150px;
+        margin: 2rem 3rem 1rem 2rem;
     }
 
     .app__navbar-smallscreen_links li {
@@ -259,7 +248,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 110px;
+        width: 80px;
+        margin: 2rem 1rem 1rem 1rem;
     }
 
     .app__navbar-smallscreen_links li {
@@ -320,7 +310,7 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 250px;
+        width: 150px;
     }
 
     .app__navbar-smallscreen_overlay {

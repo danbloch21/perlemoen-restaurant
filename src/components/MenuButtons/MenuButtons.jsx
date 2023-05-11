@@ -13,7 +13,7 @@ const MenuButtons = () => {
   return (
     <div className="app__specialMenu-buttons">
       {" "}
-      {/** onClick handler updates state to "wines" */}
+      {/** onClick handler updates state to "whites-and-bubbly" */}
       <button
         onClick={() => setOverlay("whites-and-bubbly")}
         type="button"

@@ -93,6 +93,18 @@
 
 }
 
+@media screen and (max-width: 1050px) {
+    .app__specialMenu-menu_img {
+        width: 100%; 
+        margin: 10rem 4rem; 
+     }
+
+     .app__specialMenu-menu_img img {
+        height: 400px; 
+     }
+
+}
+
 
 @media screen and (max-width: 920px) {
 

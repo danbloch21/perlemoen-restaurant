@@ -591,9 +591,7 @@ const url = "https://www.laliste.com/en/";
 const awards = [
   {
     imgUrl: images.award01,
-    title: "LALISTE HIDDEN GEM",
-    subtitle:
-      "One of eight restaurants recognised by the prestigious Paris-based global restaurant guide and app `LaListe ${hotText.link(url)}`); as ‘Hidden Gems’ in November 2022, Perlemoen was chosen as ‘worth going the extra mile for’, based on recommendations from guidebooks, press articles and customer reviews, as well as for its ‘entrepreneurship, unexpected customer experience, local produce approach and terroir’, according to the judges.",
+    title: "LA LISTE HIDDEN GEM 2023",
   },
 ];
 

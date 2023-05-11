@@ -9,7 +9,9 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="app__navbar" style={{ letterSpacing: "0.4em" }}>
-      <h1>PERLEMOEN RESTAURANT</h1>
+      <h1>
+        <a href="#home">PERLEMOEN RESTAURANT</a>
+      </h1>
       <div className="app__navbar-logo">
         <img src={images.Shells233pc} alt="app logo" />
       </div>
@@ -52,29 +54,59 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home">HOME</a>
+                <div
+                  onClick={(event) => [
+                    setToggleMenu(false),
+                    window.location.replace("/#home"),
+                  ]}
+                >
+                  <span>HOME</span>
+                </div>
               </li>
               <li className="p__opensans">
-                <div onClick={() => window.location.replace("/#about")}>
+                <div
+                  onClick={(event) => [
+                    setToggleMenu(false),
+                    window.location.replace("/#about"),
+                  ]}
+                >
                   <span>ABOUT</span>
                 </div>
               </li>
               <li className="p__opensans">
-                <div onClick={() => window.location.replace("/#menu")}>
+                <div
+                  onClick={(event) => [
+                    setToggleMenu(false),
+                    window.location.replace("/#menu"),
+                  ]}
+                >
                   <span>MENU</span>
                 </div>
               </li>
               <li className="p__opensans">
-                <a href="#awards">AWARDS</a>
+                <div
+                  onClick={(event) => [
+                    setToggleMenu(false),
+                    window.location.replace("/#awards"),
+                  ]}
+                >
+                  <span>AWARDS</span>
+                </div>
               </li>
               <li className="p__opensans">
-                <a href="#contact">CONTACT</a>
+                <div
+                  onClick={(event) => [
+                    setToggleMenu(false),
+                    window.location.replace("/#contact"),
+                  ]}
+                >
+                  <span>CONTACT</span>
+                </div>
               </li>
               <li className="p__opensans">
-                <a href="#login/register">LOG IN/REGISTER</a>
-              </li>
-              <li className="p__opensans">
-                <a href="#book a table">BOOK A TABLE</a>
+                <a href="mailto: bookings@perlemoenrestaurant.com">
+                  BOOK A TABLE
+                </a>
               </li>
             </ul>
           </div>
