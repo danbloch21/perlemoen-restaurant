@@ -60,7 +60,9 @@ const Navbar = () => {
                     window.location.replace("/#home"),
                   ]}
                 >
-                  <a href="/">HOME</a>
+                  <a href="http://danbloch21.github.io/perlemoen-restaurant/">
+                    HOME
+                  </a>
                 </div>
               </li>
               <li className="p__opensans">
