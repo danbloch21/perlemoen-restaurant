@@ -60,7 +60,7 @@ const Navbar = () => {
                     window.location.replace("/#home"),
                   ]}
                 >
-                  <span>HOME</span>
+                  <a href="/">HOME</a>
                 </div>
               </li>
               <li className="p__opensans">
