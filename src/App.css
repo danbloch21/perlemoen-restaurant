@@ -101,26 +101,14 @@
   width: 45px;
 }
 
-@media screen and (min-width: 2000px) {
-  .custom__button,
-  .p__poiret {
-    font-size: 37px;
-    line-height: 67px;
-  }
 
-  .p__opensans {
-    font-size: 30px;
-    line-height: 50px;
-  }
 
-  .headtext__poiret {
-    font-size: 150px;
-    line-height: 210px;
-  }
-
-  .spoon__img {
-    width: 80px;
-  }
+@media screen and (max-width: 1300px) {
+  .app__wrapper-img img {
+    margin: 4rem 2.5rem 3rem 4rem;
+    width: 85%;
+    height: 85%;
+}
 }
 
 @media screen and (max-width: 1150px) {
@@ -136,29 +124,69 @@
     margin: 0 0 5rem 0;
   }
 
+  .app__wrapper-img img {
+    margin: 4rem 2.5rem 3rem 4rem;
+    width: 85%;
+    height: 85%;
 }
 
-@media screen and (max-width: 850px) {
+}
+
+
+@media screen and (max-width: 920px) {
+  .app__wrapper-img img {
+    margin: 2rem 2.5rem 3rem 3.5rem;
+    width: 85%;
+    height: 85%;
+}
+  
+}
+
+@media screen and (max-width: 830px) {
   .section__padding {
     padding: 4rem;
   }
-}
-
-@media screen and (max-width: 650px) {
-  .section__padding {
-    padding: 4rem 2rem;
-  }
   
-  .p__poiret {
-    font-size: 21px;
-  }
-
-  .p__opensans {
-    font-size: 14px;
-  }
+  .app__wrapper-img img {
+    margin: 5rem 3rem 3rem 3.5rem;
+    width: 85%;
+    height: 85%;
+}
+  
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
+  .app__wrapper-img img {
+    margin: 3rem 2.5rem 0rem 3.5rem;
+    width: 85%;
+    height: 85%;
+}
+
+.section__padding {
+  padding: 4rem 2rem;
+}
+
+.p__poiret {
+  font-size: 21px;
+}
+
+.p__opensans {
+  font-size: 14px;
+}
+  
+}
+
+
+@media screen and (max-width: 550px) {
+  .app__wrapper-img img {
+    margin: 3rem 3rem 0rem 4rem;
+    width: 80%;
+    height: 80%;
+}
+  
+}
+
+@media screen and (max-width: 420px) {
   .p__opensans {
     font-size: 12px;
   }
@@ -173,7 +201,7 @@
   }
 
   .app__wrapper-img img {
-    margin: 1.5rem 1.5rem 0rem 2rem;
+    margin: 2rem 2rem 0rem 2rem;
     width: 90%;
     height: 90%;
 }

@@ -17,7 +17,7 @@ const FindUs = () => (
           South Africa
         </p>
         <p className="p__poiret" style={{ color: "#DCCA87", margin: "2rem 0" }}>
-          OPENING HOURS
+          WINTER OPENING HOURS
         </p>
         <p className="p__opensans" style={{ textTransform: "none" }}>
           Tuesday-Thursday and Sunday: Lunch only
@@ -29,30 +29,33 @@ const FindUs = () => (
           GET IN TOUCH
         </p>
         <p className="p__opensans">+27 314 8658</p>
-        <a
-          className="p__opensans"
-          href="mailto: bookings@perlemoenrestaurant.com"
-          style={{ textTransform: "none" }}
+        <div className="app__findus-link">
+          <a
+            className="p__opensans"
+            href="mailto: bookings@perlemoenrestaurant.com"
+            style={{ textTransform: "none" }}
+          >
+            bookings@perlemoen.com
+          </a>
+        </div>
+
+        <div
+          className="app__footer-links_icons"
+          style={{ color: "white", marginTop: "1.5rem" }}
         >
-          bookings@perlemoen.com
-        </a>
-      </div>
-      <div
-        className="app__footer-links_icons"
-        style={{ color: "white", marginTop: "1.5rem" }}
-      >
-        <a
-          href="https://www.facebook.com/oldharbourperlemoen/"
-          style={{ fontSize: "40px" }}
-        >
-          <FiFacebook />
-        </a>
-        <a
-          href="https://www.instagram.com/oldharbourperlemoen/?hl=en"
-          style={{ fontSize: "40px", margin: "0 2rem" }}
-        >
-          <FiInstagram />
-        </a>
+          <a
+            href="https://www.facebook.com/oldharbourperlemoen/"
+            style={{ fontSize: "40px" }}
+          >
+            <FiFacebook />
+          </a>
+          <a
+            href="https://www.instagram.com/oldharbourperlemoen/?hl=en"
+            style={{ fontSize: "40px", margin: "0 2rem" }}
+          >
+            <FiInstagram />
+          </a>
+        </div>
       </div>
 
       <button className="custom__button" style={{ marginTop: "2rem" }}>
@@ -69,7 +72,10 @@ const FindUs = () => (
           className="p__opensans"
           style={{ textTransform: "none", marginTop: "1rem" }}
         >
-          Site design by web-untangled
+          <div className="app__findus-link">
+            Site design by{" "}
+            <a href="mailto: dan@web-untangled.com">dan@web-untangled.com</a>
+          </div>
         </p>
       </div>
     </div>

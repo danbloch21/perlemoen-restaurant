@@ -38,11 +38,6 @@
         padding: 0rem 5rem 0rem 0rem;
     }
 
-    .app__wrapper-img img {
-        margin: 5rem 4rem 0rem 3rem;
-        width: 1000px;
-    }
-
 }
 
 @media screen and (max-width: 950px) {
