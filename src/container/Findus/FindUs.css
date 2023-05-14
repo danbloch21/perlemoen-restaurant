@@ -16,60 +16,7 @@
 
 @media screen and (max-width: 1300px) {
     .app__findus_img img {
-        width: 0%;
+        display: none;
     } 
 }
 
-@media screen and (max-width: 1050px) {
-    .app__findus_img img {
-        width: 0%;    } 
-}
-
-@media screen and (max-width: 920px) {
-    .app__findus_img img {
-        width: 130%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 830px) {
-    .app__findus_img img {
-        width: 120%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .app__findus_img img {
-        width: 110%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .app__findus_img img {
-        width: 115%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .app__findus_img img {
-        width: 120%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .app__findus_img img {
-        width: 125%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .app__findus_img img {
-        width: 135%;
-        margin: 0rem 6rem 0 5rem;
-    }
-}

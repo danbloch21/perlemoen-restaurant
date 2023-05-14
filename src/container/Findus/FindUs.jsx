@@ -9,7 +9,7 @@ const FindUs = () => (
     <div className="app__wrapper_info">
       <SubHeading title="CONTACT" />
       <h1 className="headtext__poiret" style={{ marginBottom: "3rem" }}>
-        FIND US
+        COME DINE WITH US
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">

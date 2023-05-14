@@ -100,6 +100,7 @@
      }
 
      .app__specialMenu-menu_img img {
+        width: 255px;
         height: 400px; 
      }
 
