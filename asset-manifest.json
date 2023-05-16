@@ -1,13 +1,13 @@
 {
-  "main.css": "/perlemoen-restaurant/static/css/main.4778a6dd.chunk.css",
-  "main.js": "/perlemoen-restaurant/static/js/main.00cd0f89.chunk.js",
-  "main.js.map": "/perlemoen-restaurant/static/js/main.00cd0f89.chunk.js.map",
+  "main.css": "/perlemoen-restaurant/static/css/main.1486b31d.chunk.css",
+  "main.js": "/perlemoen-restaurant/static/js/main.2cead733.chunk.js",
+  "main.js.map": "/perlemoen-restaurant/static/js/main.2cead733.chunk.js.map",
   "static/js/1.3e5bee55.chunk.js": "/perlemoen-restaurant/static/js/1.3e5bee55.chunk.js",
   "static/js/1.3e5bee55.chunk.js.map": "/perlemoen-restaurant/static/js/1.3e5bee55.chunk.js.map",
   "runtime~main.js": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js",
   "runtime~main.js.map": "/perlemoen-restaurant/static/js/runtime~main.d649eb79.js.map",
   "static/media/meal.mp4": "/perlemoen-restaurant/static/media/meal.be2151f4.mp4",
-  "static/media/App.css": "/perlemoen-restaurant/static/media/bg.d719065b.png",
+  "static/media/bg.png": "/perlemoen-restaurant/static/media/bg.d719065b.png",
   "static/media/chef.png": "/perlemoen-restaurant/static/media/chef.85d27f24.png",
   "static/media/gallery01.png": "/perlemoen-restaurant/static/media/gallery01.5a3891e8.png",
   "static/media/gallery02.png": "/perlemoen-restaurant/static/media/gallery02.2dd1c336.png",
@@ -30,8 +30,8 @@
   "static/media/whitewine.png": "/perlemoen-restaurant/static/media/whitewine.557161bb.png",
   "static/media/HiddenGem.png": "/perlemoen-restaurant/static/media/HiddenGem.2432e5de.png",
   "static/media/PerlyRestaurant.png": "/perlemoen-restaurant/static/media/PerlyRestaurant.0fd8eeab.png",
-  "static/css/main.4778a6dd.chunk.css.map": "/perlemoen-restaurant/static/css/main.4778a6dd.chunk.css.map",
+  "static/css/main.1486b31d.chunk.css.map": "/perlemoen-restaurant/static/css/main.1486b31d.chunk.css.map",
   "index.html": "/perlemoen-restaurant/index.html",
-  "precache-manifest.2148eae7dfda600b98a10f4d976547c5.js": "/perlemoen-restaurant/precache-manifest.2148eae7dfda600b98a10f4d976547c5.js",
+  "precache-manifest.2dd12424ea08cde513781bfdeecfd294.js": "/perlemoen-restaurant/precache-manifest.2dd12424ea08cde513781bfdeecfd294.js",
   "service-worker.js": "/perlemoen-restaurant/service-worker.js"
 }
