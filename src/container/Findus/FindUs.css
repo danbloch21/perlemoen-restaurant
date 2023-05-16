@@ -1,3 +1,7 @@
+.app__findus {
+    padding-top: 100px;
+}
+
 .app__findus_img {
     flex: 1;
     display: flex;
@@ -6,7 +10,7 @@
   }
 
 .app__findus_img img {
-    width: 150%;
+    width: 153%;
     margin: 5rem 15rem 18rem 5rem;
 }
 

@@ -422,8 +422,8 @@ const lunchstarters = [
     tags: "With curried aioli",
   },
   {
-    title: "Braised creamy abalone bake",
-    price: "R108",
+    title: "Panko prawns",
+    price: "R115",
   },
   {
     title: "Fish cakes with tartare sauce",
@@ -431,7 +431,7 @@ const lunchstarters = [
   },
   {
     title: "Abalone and prawn half moons",
-    price: "R87",
+    price: "R89",
     tags: "With cucumber and fennel slaw",
   },
   {
@@ -472,8 +472,8 @@ const lunchmains = [
   },
   {
     title: "Slow-roasted pork belly",
-    price: "R185",
-    tags: "With summer slaw and French fries",
+    price: "R190",
+    tags: "With mashed potatoes, oven vegetables and onion jus",
   },
   {
     title: "Abalone risotto",
@@ -505,11 +505,11 @@ const lunchdesserts = [
   },
   {
     title: "Ice cream",
-    price: "R38",
+    price: "R40",
   },
   {
     title: "Mango sorbet",
-    price: "R40",
+    price: "R42",
   },
   {
     title: "Affogato ",
