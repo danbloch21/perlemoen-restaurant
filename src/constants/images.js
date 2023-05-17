@@ -24,6 +24,7 @@ import whitewine from "../assets/whitewine.png";
 import HiddenGem from "../assets/HiddenGem.png";
 import PerlyRestaurant from "../assets/PerlyRestaurant.png";
 import SquidTubes from "../assets/SquidTubes.png";
+import WhatsApp from "../assets/WhatsApp.png";
 
 export default {
   bg,
@@ -52,4 +53,5 @@ export default {
   HiddenGem,
   PerlyRestaurant,
   SquidTubes,
+  WhatsApp,
 };

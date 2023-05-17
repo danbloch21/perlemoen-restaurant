@@ -15,6 +15,17 @@
     color: var(--color-gray);
 }
 
+.app__findus-whatsapp {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.app__findus-whatsapp img {
+    width: 5%;
+    margin-right: 0.5rem;
+}
+
 @media screen and (max-width: 1300px) {
     .app__findus_img img {
         display: none;

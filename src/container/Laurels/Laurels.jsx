@@ -101,6 +101,9 @@ const Laurels = () => (
           </a>
         </a>
       </p>
+      <button className="custom__button" style={{ marginTop: "5rem" }}>
+        <a href="#home">BACK TO TOP</a>
+      </button>
     </div>
     <div className="app__wrapper-img">
       <img src={images.HiddenGem} alt="laurels" />

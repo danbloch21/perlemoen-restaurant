@@ -52,9 +52,9 @@ const AboutUs = () => (
           foot”. It is a flattened sea snail with ear-shaped shells, native to
           our cool Atlantic waters.
         </p>
-        {/* <button type="button" className="custom__button">
-          KNOW MORE
-        </button> **/}
+        <button className="custom__button" style={{ marginTop: "2rem" }}>
+          <a href="#home">BACK TO TOP</a>
+        </button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">

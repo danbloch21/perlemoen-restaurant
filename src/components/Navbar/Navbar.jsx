@@ -87,9 +87,12 @@ const Navbar = () => {
                     className="p__poiret"
                     style={{ color: "#DCCA87", margin: "2rem 0" }}
                   >
-                    GET IN TOUCH
+                    BOOK A TABLE
                   </p>
-                  <p className="p__opensans">+27 314 8658</p>
+                  <div className="app__findus-whatsapp">
+                    <img src={images.WhatsApp} alt="whatsapp" />
+                    <p className="p__opensans">+27 79 314 8658</p>
+                  </div>
                   <div className="app__findus-link">
                     <a
                       className="p__opensans"
