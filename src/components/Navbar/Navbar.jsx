@@ -25,75 +25,7 @@ const Navbar = () => {
           <a href="#about">ABOUT</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu" onClick={() => setToggleMenu(true)}>
-            MENU
-          </a>
-          {toggleMenu ? (
-            <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-              <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
-                <SubHeading title="MEALS" />
-                <div className="app__overlayMenu-title">
-                  <MenuHeader title="MENU" />
-                </div>
-                <div className="app__overlayMenu-menu">
-                  <div className="app__overlayMenu-left">
-                    <div className="app__overlayMenu-menu_lunchstarters flex__center">
-                      <div className="app__overlayMenu-menu_heading">
-                        <CategoryHeader title="STARTERS" />
-                      </div>
-                      <div className="app__overlayMenu_menu_items">
-                        {data.lunchstarters.map((lunchstarter, index) => (
-                          <MenuItem
-                            key={lunchstarter.title + index}
-                            title={lunchstarter.title}
-                            price={lunchstarter.price}
-                            tags={lunchstarter.tags}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                  <div className="app__overlayMenu-right">
-                    <div className="app__overlayMenu-menu_lunchmains flex__center">
-                      <div className="app__overlayMenu-menu_heading">
-                        <CategoryHeader title="MAIN COURSES" />
-                      </div>
-                      <div className="app__overlayMenu_menu_items">
-                        {data.lunchmains.map((lunchmain, index) => (
-                          <MenuItem
-                            key={lunchmain.title + index}
-                            title={lunchmain.title}
-                            price={lunchmain.price}
-                            tags={lunchmain.tags}
-                          />
-                        ))}
-                      </div>
-                      <div className="app__overlayMenu-menu_lunchdesserts flex__center">
-                        <div className="app__overlayMenu-menu_heading">
-                          <CategoryHeader title="DESSERTS" />
-                        </div>
-                        <div className="app__overlayMenu_menu_items">
-                          {data.lunchdesserts.map((lunchdessert, index) => (
-                            <MenuItem
-                              key={lunchdessert.title + index}
-                              title={lunchdessert.title}
-                              price={lunchdessert.price}
-                              tags={lunchdessert.tags}
-                            />
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <MdOutlineRestaurantMenu
-                    fontSize={27}
-                    className="overlay__close"
-                    onClick={() => setToggleMenu(false)}
-                  />
-                </div>
-              </div>
-            </div>
-          ) : null}
+          <a href="#menu">MENU</a>
         </li>
         <li className="p__opensans">
           <a href="#contact">CONTACT</a>
@@ -132,7 +64,7 @@ const Navbar = () => {
                   className="headtext__poiret"
                   style={{ marginBottom: "3rem" }}
                 >
-                  COME DINE WITH US
+                  WHERE TO FIND US
                 </h1>
                 <div className="app__wrapper-content">
                   <p className="p__opensans">
@@ -167,7 +99,6 @@ const Navbar = () => {
                       bookings@perlemoen.com
                     </a>
                   </div>
-
                   <div
                     className="app__footer-links_icons"
                     style={{ color: "white", marginTop: "1.5rem" }}
@@ -198,7 +129,7 @@ const Navbar = () => {
                     style={{ textTransform: "none", marginTop: "1rem" }}
                   >
                     <div className="app__findus-link">
-                      Site design by{" "}
+                      Site by{" "}
                       <a href="mailto: dan@web-untangled.com">
                         dan@web-untangled.com
                       </a>

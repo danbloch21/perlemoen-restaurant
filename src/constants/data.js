@@ -419,11 +419,17 @@ const lunchstarters = [
   {
     title: "Pan-fried abalone",
     price: "R105",
-    tags: "With curried aioli",
+    tags: "Served with curried aioli",
+  },
+  {
+    title: "Abalone bake",
+    price: "R108",
+    tags: "Braised and creamy abalone topped with cheddar cheese",
   },
   {
     title: "Panko prawns",
     price: "R115",
+    tags: "Deep fried and served with a ponzu mayonnaise",
   },
   {
     title: "Fish cakes with tartare sauce",
@@ -432,23 +438,26 @@ const lunchstarters = [
   {
     title: "Abalone and prawn half moons",
     price: "R89",
-    tags: "With cucumber and fennel slaw",
+    tags: "Served with cucumber and fennel slaw",
   },
   {
     title: "Beef carpaccio",
     price: "R110",
   },
   {
-    title: "Patagonian squid tubes",
+    title: "Patagonian squid tubes with chimichurri dressing",
     price: "R120",
+    tags: "Served with fragrant rice",
   },
   {
     title: "Mussels in a creamy white sauce",
     price: "R115",
+    tags: "Tomato-based also available",
   },
   {
     title: "Creamed abalone",
     price: "R115",
+    tags: "With rice and crostini",
   },
 ];
 
@@ -456,14 +465,17 @@ const lunchmains = [
   {
     title: "Caesar salad",
     price: "R90",
+    tags: "Add chicken or avo | R35",
   },
   {
     title: "Old Harbour chowder",
     price: "R125",
+    tags: "With garlic toast",
   },
   {
     title: "Seafood penne pasta",
     price: "R160",
+    tags: "With line fish, mussels, calamari, prawns and a Neapolitan sauce",
   },
   {
     title: "Pan-fried hake",
@@ -487,6 +499,8 @@ const lunchmains = [
   {
     title: "Seafood platter for two",
     price: "R590",
+    tags:
+      "Line fish, mussels, calamari tubes, prawns, abalone strips, served with chips, vegetables and rice",
   },
 ];
 
@@ -514,6 +528,8 @@ const lunchdesserts = [
   {
     title: "Affogato ",
     price: "R75",
+    tags:
+      "Vanilla ice cream, espresso and a choice of liquor: Grappa, Amarula or Kahlua",
   },
 ];
 

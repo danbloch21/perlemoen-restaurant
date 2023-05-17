@@ -9,7 +9,7 @@ const FindUs = () => (
     <div className="app__wrapper_info">
       <SubHeading title="CONTACT" />
       <h1 className="headtext__poiret" style={{ marginBottom: "3rem" }}>
-        COME DINE WITH US
+        WHERE TO FIND US
       </h1>
       <div className="app__wrapper-content">
         <p className="p__opensans">
@@ -73,7 +73,7 @@ const FindUs = () => (
           style={{ textTransform: "none", marginTop: "1rem" }}
         >
           <div className="app__findus-link">
-            Site design by{" "}
+            Site by{" "}
             <a href="mailto: dan@web-untangled.com">dan@web-untangled.com</a>
           </div>
         </p>

@@ -38,18 +38,18 @@ const MenuButtons = () => {
         SPIRITS & LIQUEURS
       </button>
       <button
+        onClick={() => setOverlay("beers")}
+        type="button"
+        className="custom__button"
+      >
+        BEERS, CIDERS & COCKTAILS{" "}
+      </button>
+      <button
         onClick={() => setOverlay("softdrinks-and-beverages")}
         type="button"
         className="custom__button"
       >
         HOT & COLD BEVERAGES
-      </button>
-      <button
-        onClick={() => setOverlay("menu")}
-        type="button"
-        className="custom__button"
-      >
-        MENU{" "}
       </button>
     </div>
   );

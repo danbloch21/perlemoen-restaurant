@@ -27,17 +27,11 @@ const Header = () => {
           scent of the sea. Wherever in the world you are from, we are delighted
           to welcome you to our table.
         </p>
-        <button
-          type="button"
-          className="custom__button"
-          onClick={() => setToggleMenu(true)}
-        >
-          {" "}
-          EXPLORE MENU
+        <button type="button" className="custom__button">
+          <a href="#menu">EXPLORE MENU</a>{" "}
         </button>
         {toggleMenu ? (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-
             <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
               <SubHeading title="MEALS" />
               <div className="app__overlayMenu-title">

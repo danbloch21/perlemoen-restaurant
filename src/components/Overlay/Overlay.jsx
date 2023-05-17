@@ -425,60 +425,48 @@ const Overlay = ({ title, handleClose }) => {
         </div>
       </div>
     );
-  } else if (title === "menu") {
+  } else if (title === "beers") {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
-        <SubHeading title="MEALS" />
+        <SubHeading title="DRINKS" />
         <div className="app__overlayMenu-title">
-          <MenuHeader title="MENU" />
+          <MenuHeader title="TIPPLES" />
         </div>
         <div className="app__overlayMenu-menu">
           <div className="app__overlayMenu-left">
-            <div className="app__overlayMenu-menu_lunchstarters flex__center">
+            <div className="app__overlayMenu-menu_beers flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="STARTERS" />
+                <CategoryHeader title="BEERS & CIDERS" />
               </div>
               <div className="app__overlayMenu_menu_items">
-                {data.lunchstarters.map((lunchstarter, index) => (
+                {data.beers.map((beer, index) => (
                   <MenuItem
-                    key={lunchstarter.title + index}
-                    title={lunchstarter.title}
-                    price={lunchstarter.price}
-                    tags={lunchstarter.tags}
+                    key={beer.title + index}
+                    title={beer.title}
+                    price={beer.price}
+                    tags={beer.tags}
                   />
                 ))}
               </div>
             </div>
           </div>
           <div className="app__overlayMenu-right">
-            <div className="app__overlayMenu-menu_lunchmains flex__center">
+            <div className="app__overlayMenu-menu_cocktails flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="MAIN COURSES" />
+                <CategoryHeader title="COCKTAILS" />
               </div>
               <div className="app__overlayMenu_menu_items">
-                {data.lunchmains.map((lunchmain, index) => (
+                {data.cocktails.map((cocktail, index) => (
                   <MenuItem
-                    key={lunchmain.title + index}
-                    title={lunchmain.title}
-                    price={lunchmain.price}
-                    tags={lunchmain.tags}
+                    key={cocktail.title + index}
+                    title={cocktail.title}
+                    price={cocktail.price}
+                    tags={cocktail.tags}
                   />
                 ))}
-              </div>
-              <div className="app__overlayMenu-menu_lunchdesserts flex__center">
-                <div className="app__overlayMenu-menu_heading">
-                  <CategoryHeader title="DESSERTS" />
-                </div>
-                <div className="app__overlayMenu_menu_items">
-                  {data.lunchdesserts.map((lunchdessert, index) => (
-                    <MenuItem
-                      key={lunchdessert.title + index}
-                      title={lunchdessert.title}
-                      price={lunchdessert.price}
-                      tags={lunchdessert.tags}
-                    />
-                  ))}
-                </div>
+                <p className="app__p-opensans">
+                Virgin versions of some cocktails available
+              </p>
               </div>
             </div>
           </div>

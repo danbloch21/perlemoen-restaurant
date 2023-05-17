@@ -23,6 +23,7 @@ import Shells233pc from "../assets/Shells233pc.png";
 import whitewine from "../assets/whitewine.png";
 import HiddenGem from "../assets/HiddenGem.png";
 import PerlyRestaurant from "../assets/PerlyRestaurant.png";
+import SquidTubes from "../assets/SquidTubes.png";
 
 export default {
   bg,
@@ -50,4 +51,5 @@ export default {
   whitewine,
   HiddenGem,
   PerlyRestaurant,
+  SquidTubes,
 };
