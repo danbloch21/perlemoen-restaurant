@@ -23,7 +23,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_champagnes flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="SPARKLING WINE" />
+                <CategoryHeader title="SPARKLING WINES" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.champagnes.map((champagne, index) => (
@@ -38,7 +38,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_chardonnays flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="CHARDONNAY" />
+                <CategoryHeader title="CHARDONNAYS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.chardonnays.map((chardonnay, index) => (
@@ -53,7 +53,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_chenins flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="CHENIN BLANC" />
+                <CategoryHeader title="CHENIN BLANCS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.chenins.map((chenin, index) => (
@@ -71,7 +71,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-right">
             <div className="app__overlayMenu-menu_sauvignons flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="SAUVIGNON BLANC" />
+                <CategoryHeader title="SAUVIGNON BLANCS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.sauvignons.map((sauvignon, index) => (
@@ -101,7 +101,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_whiteblends flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="BLEND" />
+                <CategoryHeader title="BLENDS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.whiteblends.map((whiteblend, index) => (
@@ -134,7 +134,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_pinots flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="PINOT NOIR" />
+                <CategoryHeader title="PINOTS NOIRS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.pinots.map((pinot, index) => (
@@ -164,7 +164,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_pinotages flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="PINOTAGE" />
+                <CategoryHeader title="PINOTAGES" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.pinotages.map((pinotage, index) => (
@@ -181,7 +181,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-right">
             <div className="app__overlayMenu-menu_redblends flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="BLEND" />
+                <CategoryHeader title="BLENDS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.redblends.map((redblend, index) => (
@@ -211,7 +211,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_roses flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="ROSÉ" />
+                <CategoryHeader title="ROSÉS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.roses.map((rose, index) => (
@@ -245,7 +245,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_gins flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="GIN" />
+                <CategoryHeader title="GINS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.gins.map((gin, index) => (
@@ -260,7 +260,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_vodkas flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="VODKA" />
+                <CategoryHeader title="VODKAS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.vodkas.map((vodka, index) => (
@@ -275,7 +275,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_whiskeys flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="WHISKEY" />
+                <CategoryHeader title="WHISKEYS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.whiskeys.map((whiskey, index) => (
@@ -290,7 +290,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_brandies flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="BRANDY" />
+                <CategoryHeader title="BRANDIES" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.brandies.map((brandy, index) => (
@@ -352,7 +352,7 @@ const Overlay = ({ title, handleClose }) => {
             </div>
             <div className="app__overlayMenu-menu_liqueurs flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="LIQUEUR" />
+                <CategoryHeader title="LIQUEURS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.liqueurs.map((liqueur, index) => (
@@ -465,8 +465,8 @@ const Overlay = ({ title, handleClose }) => {
                   />
                 ))}
                 <p className="app__p-opensans">
-                Virgin versions of some cocktails available
-              </p>
+                  Virgin versions of some cocktails available
+                </p>
               </div>
             </div>
           </div>
