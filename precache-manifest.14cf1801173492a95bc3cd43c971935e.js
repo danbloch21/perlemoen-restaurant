@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "82af88680edbe46c7b5c",
+    "revision": "fab656940a74af0a4ae5",
     "url": "/perlemoen-restaurant/static/css/main.93e52b76.chunk.css"
   },
   {
-    "revision": "82af88680edbe46c7b5c",
-    "url": "/perlemoen-restaurant/static/js/main.82af8868.chunk.js"
+    "revision": "fab656940a74af0a4ae5",
+    "url": "/perlemoen-restaurant/static/js/main.fab65694.chunk.js"
   },
   {
     "revision": "84a132620331db356f08",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/perlemoen-restaurant/static/media/SquidTubes.9bb7e4ce.png"
   },
   {
-    "revision": "e2f74ec40c206c4a17e2be8685db9b04",
+    "revision": "6dd1b89caffdae395776c525e90d32b0",
     "url": "/perlemoen-restaurant/index.html"
   }
 ];
