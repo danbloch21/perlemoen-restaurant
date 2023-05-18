@@ -32,3 +32,17 @@
     } 
 }
 
+@media screen and (max-width: 550px) {
+    .app__findus-whatsapp img {
+        width: 8%;
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app__findus-whatsapp img {
+        width: 12%;
+        margin-right: 0.5rem;
+    }
+}
+
