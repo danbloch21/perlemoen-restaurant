@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/perlemoen-restaurant/static/media/WhatsApp.77db1850.png"
   },
   {
-    "revision": "f9481c40176e57134c5297564abbfc19",
+    "revision": "35cc0ef27ce3685ae83e6a36a2b83967",
     "url": "/perlemoen-restaurant/index.html"
   }
 ];
