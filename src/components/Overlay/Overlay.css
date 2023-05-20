@@ -95,8 +95,36 @@
         align-items: flex-start;
         flex-flow: row wrap;
     }
+
+    
 }
 
+@media screen and (max-width: 920px) {
+    .app__overlayMenu-menu_heading {
+        font-weight: 600;
+        font-size: 3px;
+        line-height: 10px;
+
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .app__overlay-smallscreen_overlay {
+        padding: 25rem 1rem 0rem 1rem;
+        max-height: 20000px;    }
+}
+
+.app__overlay-smallscreen_overlay .overlay__close {
+    top: 45px;
+    right: 50px;
+}
+
+.app__overlayMenu-menu_heading {
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 2px;
+
+}
 
 
 @media screen and (max-width: 800px) {
@@ -144,10 +172,15 @@
         max-height: 1800px;
         height: 105vh; /* means entire height of screen */
     }
+
+    .app__overlay-smallscreen_overlay .overlay__close {
+        top: 50px;
+        right: 30px;
+    }
  
      .app__overlayMenu-menu_heading {
         font-weight: 600;
-        font-size: 30px;
+        font-size: 26px;
         line-height: 10px;
 
     }
@@ -160,6 +193,8 @@
         max-height: 7000px;
         height: 105vh; /* means entire height of screen */
     }
+
+
  
      .app__overlayMenu-menu_heading {
         font-weight: 600;
@@ -171,15 +206,21 @@
 }
 
 @media screen and (max-width: 300px) {
+
     .app__overlay-smallscreen_overlay {
-        padding-top: 43rem;
+        padding: 44rem 0rem 0rem 0rem;
         max-height: 20000px;
         height: 105vh; /* means entire height of screen */
+    }
+
+    .app__overlay-smallscreen_overlay .overlay__close {
+        top: 25px;
+        right: 30px;
     }
  
      .app__overlayMenu-menu_heading {
         font-weight: 600;
-        font-size: 19px;
+        font-size: 16px;
         line-height: 2px;
 
     }

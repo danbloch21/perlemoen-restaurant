@@ -56,3 +56,9 @@
         width: 15px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .app__menuitem-dash {
+        width: 6px;
+    }
+}

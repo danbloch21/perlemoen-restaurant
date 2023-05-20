@@ -134,7 +134,7 @@ const Overlay = ({ title, handleClose }) => {
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_pinots flex__center">
               <div className="app__overlayMenu-menu_heading">
-                <CategoryHeader title="PINOTS NOIRS" />
+                <CategoryHeader title="PINOT NOIRS" />
               </div>
               <div className="app__overlayMenu_menu_items">
                 {data.pinots.map((pinot, index) => (
@@ -378,9 +378,6 @@ const Overlay = ({ title, handleClose }) => {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
         <SubHeading title="DRINKS" />
-        <div className="app__overlayMenu-title">
-          <MenuHeader title="HOT & COLD BEVERAGES" />
-        </div>
         <div className="app__overlayMenu-menu">
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_beverages flex__center">
@@ -429,9 +426,6 @@ const Overlay = ({ title, handleClose }) => {
     return (
       <div className="app__overlay-smallscreen_overlay flex__center slide-bottom">
         <SubHeading title="DRINKS" />
-        <div className="app__overlayMenu-title">
-          <MenuHeader title="TIPPLES" />
-        </div>
         <div className="app__overlayMenu-menu">
           <div className="app__overlayMenu-left">
             <div className="app__overlayMenu-menu_beers flex__center">
