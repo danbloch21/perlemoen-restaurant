@@ -254,8 +254,8 @@ border-bottom: 1px solid var(--color-golden);
     }
 
     .app__navbar-logo img {
-        width: 150px;
-        margin: 2rem 3rem 1rem 2rem;
+        width: 90px;
+        margin: 2rem 2rem 1rem 1rem;
     }
 
     .app__navbar-smallscreen_links li {
