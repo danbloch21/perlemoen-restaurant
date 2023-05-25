@@ -57,7 +57,8 @@ const Navbar = () => {
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
-            <div className="app__bg app__wrapper section__padding" id="contact">
+            {/*
+<div className="app__bg app__wrapper section__padding" id="contact">
               <div className="app__wrapper_info">
                 <SubHeading title="CONTACT" />
                 <h1
@@ -144,7 +145,9 @@ const Navbar = () => {
                 <img src={images.PerlyRestaurant} alt="findus" />
               </div>
             </div>
-            {/* <ul className="app__navbar-smallscreen_links">
+            **/}
+
+            <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
                 <div
                   onClick={(event) => [
@@ -200,7 +203,7 @@ const Navbar = () => {
                   BOOK A TABLE
                 </a>
               </li>
-            </ul> **/}
+            </ul>
           </div>
         ) : null}
       </div>
