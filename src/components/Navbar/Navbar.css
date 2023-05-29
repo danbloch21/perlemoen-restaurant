@@ -318,7 +318,7 @@ border-bottom: 1px solid var(--color-golden);
 
 @media screen and (max-width: 370px) {
     .app__navbar {
-        padding: 0 2.5rem 1rem 5rem;
+        padding: 0 2.5rem 1rem 1.5rem;
     }
 
     .app__navbar-logo img {
