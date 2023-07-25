@@ -13,7 +13,7 @@ const SpecialMenu = () => (
       <SubHeading title="MENU" />
       <h1
         className="headtext__poiret"
-        style={{ letterSpacing: "0.09em" }}
+        style={{ letterSpacing: "0.09em", lineHeight: "40px" }}
         id="menu"
       >
         COME DINE WITH US

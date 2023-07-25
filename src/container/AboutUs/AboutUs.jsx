@@ -11,7 +11,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_about">
         <h1
           className="headtext__poiret"
-          style={{ letterSpacing: "0.1em" }}
+          style={{ letterSpacing: "0.1em", marginBottom: "1rem"}}
           id="about"
         >
           ABOUT US
@@ -62,7 +62,7 @@ const AboutUs = () => (
       </div>
 
       <div className="app__aboutus-content_history">
-        <h1 className="headtext__poiret" style={{ letterSpacing: "0.1em" }}>
+        <h1 className="headtext__poiret" style={{ letterSpacing: "0.1em" , marginBottom: "1rem" }}>
           OUR HISTORY
         </h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
