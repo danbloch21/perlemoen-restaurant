@@ -20,11 +20,11 @@ const FindUs = () => (
           WINTER OPENING HOURS
         </p>
         <p className="p__opensans" style={{ textTransform: "none" }}>
-          Tuesday-Thursday and Sunday: Lunch only
+          Tuesday-Sunday: Lunch only
         </p>
-        <p className="p__opensans" style={{ textTransform: "none" }}>
+        {/* <p className="p__opensans" style={{ textTransform: "none" }}>
           Friday-Saturday: Lunch and dinner
-        </p>
+        </p>**/}
         <p className="p__poiret" style={{ color: "#DCCA87", margin: "2rem 0" }}>
           BOOK A TABLE
         </p>
