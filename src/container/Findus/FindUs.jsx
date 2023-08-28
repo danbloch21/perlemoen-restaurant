@@ -17,14 +17,14 @@ const FindUs = () => (
           South Africa
         </p>
         <p className="p__poiret" style={{ color: "#DCCA87", margin: "2rem 0" }}>
-          WINTER OPENING HOURS
+          OPENING HOURS
         </p>
         <p className="p__opensans" style={{ textTransform: "none" }}>
-          Tuesday-Sunday: Lunch only
+          Tuesday-Thursday: Lunch only
         </p>
-        {/* <p className="p__opensans" style={{ textTransform: "none" }}>
+        <p className="p__opensans" style={{ textTransform: "none" }}>
           Friday-Saturday: Lunch and dinner
-        </p>**/}
+        </p>
         <p className="p__poiret" style={{ color: "#DCCA87", margin: "2rem 0" }}>
           BOOK A TABLE
         </p>
@@ -38,7 +38,7 @@ const FindUs = () => (
             href="mailto: bookings@perlemoenrestaurant.com"
             style={{ textTransform: "none" }}
           >
-            bookings@perlemoen.com
+            bookings@perlemoenrestaurant.com
           </a>
         </div>
 
