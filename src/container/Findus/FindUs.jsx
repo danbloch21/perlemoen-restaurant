@@ -20,7 +20,7 @@ const FindUs = () => (
           OPENING HOURS
         </p>
         <p className="p__opensans" style={{ textTransform: "none" }}>
-          Tuesday-Thursday: Lunch only
+          Tuesday-Thursday and Sunday: Lunch only
         </p>
         <p className="p__opensans" style={{ textTransform: "none" }}>
           Friday-Saturday: Lunch and dinner
