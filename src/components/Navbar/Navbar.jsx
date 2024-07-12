@@ -152,7 +152,9 @@ const Navbar = () => {
                 <div
                   onClick={(event) => [
                     setToggleMenu(false),
-                    window.location.replace("/#home"),
+                    window.location.replace(
+                      "https://danbloch21.github.io/perlemoen-restaurant/#home"
+                    ),
                   ]}
                 >
                   <span>HOME</span>
@@ -162,7 +164,9 @@ const Navbar = () => {
                 <div
                   onClick={(event) => [
                     setToggleMenu(false),
-                    window.location.replace("/#about"),
+                    window.location.replace(
+                      "https://danbloch21.github.io/perlemoen-restaurant/#about"
+                    ),
                   ]}
                 >
                   <span>ABOUT</span>
@@ -184,7 +188,9 @@ const Navbar = () => {
                 <div
                   onClick={(event) => [
                     setToggleMenu(false),
-                    window.location.replace("/#awards"),
+                    window.location.replace(
+                      "https://danbloch21.github.io/perlemoen-restaurant/#awards"
+                    ),
                   ]}
                 >
                   <span>AWARDS</span>
@@ -194,7 +200,9 @@ const Navbar = () => {
                 <div
                   onClick={(event) => [
                     setToggleMenu(false),
-                    window.location.replace("/#contact"),
+                    window.location.replace(
+                      "https://danbloch21.github.io/perlemoen-restaurant/#contact"
+                    ),
                   ]}
                 >
                   <span>CONTACT</span>
