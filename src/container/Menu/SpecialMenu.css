@@ -60,12 +60,12 @@
 
 @media screen and (max-width: 2200px) {
     .app__specialMenu-menu_img {
-        width: 650px;
+        width: 450px;
         margin: 5rem 1rem 0 12rem; 
     }
 
     .app__specialMenu-menu_img img {
-        height: 650px;
+        height: 500px;
     }
 
     .app__specialMenu-buttons {
