@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/perlemoen-restaurant/precache-manifest.9ddfaf016674228b6638309465bc131b.js"
+  "/perlemoen-restaurant/precache-manifest.e6f0f100dff790740095c4dc2f282d88.js"
 );
 
 workbox.clientsClaim();
