@@ -172,7 +172,9 @@ const Navbar = () => {
                 <div
                   onClick={(event) => [
                     setToggleMenu(false),
-                    window.location.replace("/#menu"),
+                    window.location.replace(
+                      "https://danbloch21.github.io/perlemoen-restaurant/#menu"
+                    ),
                   ]}
                 >
                   <span>MENU</span>
